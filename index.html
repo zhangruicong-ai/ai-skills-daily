@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Skills Daily — AI 技能日报</title>
+<meta name="description" content="每天更新 AI 圈最新技能与资讯，发现好用的 Agent Skills">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:ital,wght@0,300;0,500;0,700;1,300&display=swap" rel="stylesheet">
+<style>
+/* ============================================
+   CSS Variables & Reset
+   ============================================ */
+:root {
+  /* Dark theme (default) */
+  --bg-primary: #08080f;
+  --bg-secondary: #0e0e1a;
+  --bg-card: #13131f;
+  --bg-card-hover: #1a1a2e;
+  --text-primary: #e8e8f0;
+  --text-secondary: #8888a0;
+  --text-muted: #555570;
+  --accent-cyan: #00e5ff;
+  --accent-purple: #a855f7;
+  --accent-pink: #f472b6;
+  --accent-green: #34d399;
+  --border-color: #1e1e35;
+  --shadow-color: rgba(0, 229, 255, 0.05);
+  --glow-cyan: 0 0 20px rgba(0, 229, 255, 0.15);
+  --glow-purple: 0 0 20px rgba(168, 85, 247, 0.15);
+  --font-display: 'DM Serif Display', Georgia, serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', 'Fira Code', monospace;
+  --font-body: 'JetBrains Mono', system-ui, -apple-system, sans-serif;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --radius-lg: 20px;
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme="light"] {
+  --bg-primary: #f5f5fa;
+  --bg-secondary: #eeeef5;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f0f0f8;
+  --text-primary: #1a1a2e;
+  --text-secondary: #555570;
+  --text-muted: #9999b0;
+  --accent-cyan: #0891b2;
+  --accent-purple: #7c3aed;
+  --accent-pink: #db2777;
+  --accent-green: #059669;
+  --border-color: #d4d4e0;
+  --shadow-color: rgba(0, 0, 0, 0.06);
+  --glow-cyan: 0 0 20px rgba(8, 145, 178, 0.1);
+  --glow-purple: 0 0 20px rgba(124, 58, 237, 0.1);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ============================================
+   Background Noise Texture
+   ============================================ */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 256px 256px;
+  pointer-events: none;
+}
+
+/* ============================================
+   Scrollbar
+   ============================================ */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-primary); }
+::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+/* ============================================
+   Animated Background Grid
+   ============================================ */
+.bg-grid {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background-image:
+    linear-gradient(var(--border-color) 1px, transparent 1px),
+    linear-gradient(90deg, var(--border-color) 1px, transparent 1px);
+  background-size: 60px 60px;
+  opacity: 0.3;
+  mask-image: radial-gradient(ellipse at 50% 0%, black 30%, transparent 70%);
+  -webkit-mask-image: radial-gradient(ellipse at 50% 0%, black 30%, transparent 70%);
+  pointer-events: none;
+}
+
+/* ============================================
+   Orb Elements
+   ============================================ */
+.orb {
+  position: fixed;
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0.4;
+  transition: transform 0.5s ease-out;
+}
+.orb-1 {
+  width: 500px; height: 500px;
+  background: radial-gradient(circle, rgba(0,229,255,0.15), transparent);
+  top: -10%; right: -10%;
+  animation: orbFloat 20s ease-in-out infinite;
+}
+.orb-2 {
+  width: 400px; height: 400px;
+  background: radial-gradient(circle, rgba(168,85,247,0.12), transparent);
+  bottom: -5%; left: -5%;
+  animation: orbFloat 25s ease-in-out infinite reverse;
+}
+.orb-3 {
+  width: 300px; height: 300px;
+  background: radial-gradient(circle, rgba(244,114,182,0.08), transparent);
+  top: 50%; left: 50%;
+  animation: orbFloat 15s ease-in-out infinite 3s;
+}
+
+@keyframes orbFloat {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  25% { transform: translate(30px, -40px) scale(1.1); }
+  50% { transform: translate(-20px, 20px) scale(0.95); }
+  75% { transform: translate(40px, 30px) scale(1.05); }
+}
+
+/* ============================================
+   Header / Navigation
+   ============================================ */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(8, 8, 15, 0.8);
+  backdrop-filter: blur(20px) saturate(1.5);
+  -webkit-backdrop-filter: blur(20px) saturate(1.5);
+  border-bottom: 1px solid var(--border-color);
+}
+[data-theme="light"] .header {
+  background: rgba(245, 245, 250, 0.85);
+}
+
+.header-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.logo-icon {
+  width: 36px;
+  height: 36px;
+  background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  font-family: var(--font-display);
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.2);
+}
+
+.logo-text {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-style: italic;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+.logo-text span {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-style: normal;
+  font-weight: 300;
+  color: var(--text-muted);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header-date {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  letter-spacing: 0.05em;
+}
+
+.theme-toggle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--border-color);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  transition: var(--transition);
+}
+.theme-toggle:hover {
+  border-color: var(--accent-cyan);
+  box-shadow: var(--glow-cyan);
+  transform: rotate(15deg);
+}
+
+/* ============================================
+   Hero Section
+   ============================================ */
+.hero {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 80px 24px 48px;
+  position: relative;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  font-style: italic;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  margin-bottom: 16px;
+  max-width: 700px;
+}
+.hero-title .highlight {
+  background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-sub {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: var(--text-secondary);
+  max-width: 500px;
+  line-height: 1.7;
+  margin-bottom: 32px;
+}
+
+.hero-stats {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.hero-stat {
+  display: flex;
+  flex-direction: column;
+}
+.hero-stat-value {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  color: var(--accent-cyan);
+  font-style: italic;
+}
+.hero-stat-label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* ============================================
+   Section Titles
+   ============================================ */
+.section {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+.section-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-style: italic;
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.section-title .accent-line {
+  display: inline-block;
+  width: 4px;
+  height: 28px;
+  background: linear-gradient(to bottom, var(--accent-cyan), var(--accent-purple));
+  border-radius: 2px;
+}
+.section-count {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 300;
+  color: var(--text-muted);
+  font-style: normal;
+}
+
+/* ============================================
+   Filter Bar
+   ============================================ */
+.filter-bar {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+  align-items: center;
+}
+
+.filter-btn {
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: 1px solid var(--border-color);
+  background: transparent;
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: var(--transition);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.filter-btn:hover {
+  border-color: var(--accent-cyan);
+  color: var(--accent-cyan);
+}
+.filter-btn.active {
+  background: linear-gradient(135deg, rgba(0,229,255,0.1), rgba(168,85,247,0.1));
+  border-color: var(--accent-cyan);
+  color: var(--accent-cyan);
+  box-shadow: var(--glow-cyan);
+}
+
+.search-box {
+  position: relative;
+  margin-left: auto;
+}
+.search-box input {
+  padding: 8px 16px 8px 36px;
+  border-radius: 20px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  width: 200px;
+  transition: var(--transition);
+  outline: none;
+}
+.search-box input:focus {
+  border-color: var(--accent-cyan);
+  box-shadow: var(--glow-cyan);
+  width: 260px;
+}
+.search-box .search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  pointer-events: none;
+}
+
+/* ============================================
+   Skills Grid
+   ============================================ */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.skill-card {
+  position: relative;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  padding: 20px;
+  transition: var(--transition);
+  cursor: pointer;
+  overflow: hidden;
+  animation: cardIn 0.5s ease-out both;
+}
+
+.skill-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius);
+  padding: 1px;
+  background: linear-gradient(135deg, transparent 40%, var(--accent-cyan), transparent 60%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: var(--transition);
+  pointer-events: none;
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+  border-color: transparent;
+  background: var(--bg-card-hover);
+  box-shadow: 0 12px 40px var(--shadow-color);
+}
+.skill-card:hover::before {
+  opacity: 1;
+}
+
+.skill-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.skill-rank {
+  font-family: var(--font-display);
+  font-size: 2.2rem;
+  font-style: italic;
+  color: var(--text-muted);
+  line-height: 1;
+  opacity: 0.3;
+  position: absolute;
+  top: 8px;
+  right: 12px;
+}
+.skill-card:nth-child(1) .skill-rank { color: var(--accent-cyan); opacity: 0.6; }
+.skill-card:nth-child(2) .skill-rank { color: var(--accent-purple); opacity: 0.5; }
+.skill-card:nth-child(3) .skill-rank { color: var(--accent-pink); opacity: 0.4; }
+
+.skill-name {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--text-primary);
+  line-height: 1.3;
+  word-break: break-word;
+  max-width: 75%;
+}
+
+.skill-category {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 0.65rem;
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+}
+.cat-design { background: rgba(168,85,247,0.15); color: var(--accent-purple); }
+.cat-frontend { background: rgba(0,229,255,0.15); color: var(--accent-cyan); }
+.cat-mobile { background: rgba(52,211,153,0.15); color: var(--accent-green); }
+.cat-other { background: rgba(244,114,182,0.15); color: var(--accent-pink); }
+
+.skill-desc {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.skill-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+.skill-installs {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.skill-installs .num {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+/* ============================================
+   News List
+   ============================================ */
+.news-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.news-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  transition: var(--transition);
+  text-decoration: none;
+  color: inherit;
+  animation: cardIn 0.4s ease-out both;
+}
+
+.news-item:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent-cyan);
+  transform: translateX(4px);
+}
+
+.news-badge {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: var(--font-mono);
+}
+.news-badge.paper { background: rgba(0,229,255,0.15); color: var(--accent-cyan); }
+.news-badge.github { background: rgba(168,85,247,0.15); color: var(--accent-purple); }
+
+.news-content {
+  flex: 1;
+  min-width: 0;
+}
+.news-title {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-style: italic;
+  margin-bottom: 4px;
+  line-height: 1.3;
+}
+.news-source {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+.news-score {
+  flex-shrink: 0;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--accent-cyan);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* ============================================
+   Picks Section (Featured)
+   ============================================ */
+.picks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.pick-card {
+  position: relative;
+  background: linear-gradient(135deg, var(--bg-card), var(--bg-card-hover));
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  padding: 24px 20px;
+  transition: var(--transition);
+  animation: cardIn 0.5s ease-out both;
+}
+.pick-card:hover {
+  border-color: var(--accent-purple);
+  transform: translateY(-4px);
+  box-shadow: var(--glow-purple);
+}
+
+.pick-card .emoji {
+  font-size: 2rem;
+  margin-bottom: 12px;
+  display: block;
+}
+.pick-card .pick-name {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-bottom: 6px;
+}
+.pick-card .pick-desc {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  font-weight: 300;
+  line-height: 1.5;
+}
+.pick-card .pick-install {
+  margin-top: 12px;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--accent-cyan);
+  padding: 4px 12px;
+  background: rgba(0,229,255,0.08);
+  border-radius: 6px;
+  display: inline-block;
+}
+
+/* ============================================
+   Footer
+   ============================================ */
+.footer {
+  border-top: 1px solid var(--border-color);
+  margin-top: 48px;
+  padding: 32px 24px;
+  text-align: center;
+}
+.footer-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.footer p {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  line-height: 1.8;
+}
+.footer a {
+  color: var(--accent-cyan);
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* ============================================
+   Loading / Error / Empty States
+   ============================================ */
+.state-message {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+}
+.state-message .icon {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  display: block;
+}
+.state-message .retry-btn {
+  margin-top: 16px;
+  padding: 8px 24px;
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  background: var(--bg-card);
+  color: var(--text-primary);
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  transition: var(--transition);
+}
+.state-message .retry-btn:hover {
+  border-color: var(--accent-cyan);
+  box-shadow: var(--glow-cyan);
+}
+
+/* ============================================
+   Animations
+   ============================================ */
+@keyframes cardIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Stagger animation delays */
+.skill-card:nth-child(1) { animation-delay: 0.02s; }
+.skill-card:nth-child(2) { animation-delay: 0.06s; }
+.skill-card:nth-child(3) { animation-delay: 0.10s; }
+.skill-card:nth-child(4) { animation-delay: 0.14s; }
+.skill-card:nth-child(5) { animation-delay: 0.18s; }
+.skill-card:nth-child(6) { animation-delay: 0.22s; }
+.skill-card:nth-child(7) { animation-delay: 0.26s; }
+.skill-card:nth-child(8) { animation-delay: 0.30s; }
+.skill-card:nth-child(9) { animation-delay: 0.34s; }
+.skill-card:nth-child(10) { animation-delay: 0.38s; }
+
+.news-item:nth-child(1) { animation-delay: 0.05s; }
+.news-item:nth-child(2) { animation-delay: 0.10s; }
+.news-item:nth-child(3) { animation-delay: 0.15s; }
+.news-item:nth-child(4) { animation-delay: 0.20s; }
+.news-item:nth-child(5) { animation-delay: 0.25s; }
+
+/* ============================================
+   Responsive
+   ============================================ */
+@media (max-width: 768px) {
+  .header-inner { padding: 0 16px; }
+  .hero { padding: 48px 16px 32px; }
+  .section { padding: 32px 16px; }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+  .picks-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .search-box { margin-left: 0; width: 100%; margin-top: 8px; }
+  .search-box input { width: 100%; }
+  .search-box input:focus { width: 100%; }
+  .filter-bar { flex-wrap: wrap; }
+  .hero-stats { gap: 20px; }
+  .logo-text { font-size: 1.1rem; }
+  .header-date { display: none; }
+}
+
+@media (max-width: 480px) {
+  .picks-grid { grid-template-columns: 1fr; }
+  .hero-title { font-size: 2rem; }
+  .section-title { font-size: 1.4rem; }
+}
+</style>
+</head>
+<body>
+
+<!-- Background decorations -->
+<div class="bg-grid"></div>
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+<div class="orb orb-3"></div>
+
+<!-- ==========================================
+     Header
+     ========================================== -->
+<header class="header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="logo">
+      <div class="logo-icon">✦</div>
+      <div class="logo-text">
+        AI Skills Daily
+        <span>Agent Skills &amp; AI News</span>
+      </div>
+    </a>
+    <div class="header-right">
+      <span class="header-date" id="currentDate"></span>
+      <button class="theme-toggle" id="themeToggle" aria-label="切换主题">🌙</button>
+    </div>
+  </div>
+</header>
+
+<!-- ==========================================
+     Hero
+     ========================================== -->
+<section class="hero">
+  <h1 class="hero-title">
+    Discover the<br>
+    <span class="highlight">Best AI Skills</span>
+  </h1>
+  <p class="hero-sub">
+    Curated daily from skills.sh &amp; Hugging Face — find trending agent skills,
+    read the latest AI research, and level up your workflow.
+  </p>
+  <div class="hero-stats">
+    <div class="hero-stat">
+      <span class="hero-stat-value" id="statSkills">—</span>
+      <span class="hero-stat-label">Skills Tracked</span>
+    </div>
+    <div class="hero-stat">
+      <span class="hero-stat-value" id="statNews">—</span>
+      <span class="hero-stat-label">Today's News</span>
+    </div>
+    <div class="hero-stat">
+      <span class="hero-stat-value" id="statUpdated">—</span>
+      <span class="hero-stat-label">Last Updated</span>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================
+     Trending Skills
+     ========================================== -->
+<section class="section" id="skillsSection">
+  <div class="section-header">
+    <h2 class="section-title">
+      <span class="accent-line"></span>
+      Trending Skills
+      <span class="section-count" id="skillsCount"></span>
+    </h2>
+  </div>
+
+  <div class="filter-bar">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="design">Design</button>
+    <button class="filter-btn" data-filter="frontend">Frontend</button>
+    <button class="filter-btn" data-filter="mobile">Mobile</button>
+    <button class="filter-btn" data-filter="other">Other</button>
+    <div class="search-box">
+      <span class="search-icon">⌕</span>
+      <input type="text" id="searchInput" placeholder="Search skills..." autocomplete="off">
+    </div>
+  </div>
+
+  <div class="skills-grid" id="skillsGrid">
+    <div class="state-message">
+      <span class="icon">⏳</span>
+      Loading skills...
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================
+     AI News
+     ========================================== -->
+<section class="section" id="newsSection">
+  <div class="section-header">
+    <h2 class="section-title">
+      <span class="accent-line"></span>
+      AI News
+      <span class="section-count" id="newsCount"></span>
+    </h2>
+  </div>
+
+  <div class="news-list" id="newsList">
+    <div class="state-message">
+      <span class="icon">⏳</span>
+      Loading news...
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================
+     Editor's Picks
+     ========================================== -->
+<section class="section" id="picksSection">
+  <div class="section-header">
+    <h2 class="section-title">
+      <span class="accent-line"></span>
+      Editor's Picks
+    </h2>
+  </div>
+  <div class="picks-grid" id="picksGrid">
+    <!-- rendered by JS -->
+  </div>
+</section>
+
+<!-- ==========================================
+     Footer
+     ========================================== -->
+<footer class="footer">
+  <div class="footer-inner">
+    <p>
+      Data sourced from <a href="https://skills.sh" target="_blank" rel="noopener">skills.sh</a> ·
+      <a href="https://huggingface.co/papers" target="_blank" rel="noopener">Hugging Face Papers</a> ·
+      <a href="https://github.com" target="_blank" rel="noopener">GitHub Trending</a>
+    </p>
+    <p style="margin-top:4px;">
+      Built with ❤️ using <a href="https://github.com/anthropics/skills" target="_blank" rel="noopener">frontend-design</a> skill &nbsp;·&nbsp;
+      <a href="https://github.com" target="_blank" rel="noopener">View on GitHub</a>
+    </p>
+  </div>
+</footer>
+
+<script>
+// ============================================
+// Data
+// ============================================
+const INITIAL_DATA = {
+  skills: [],
+  news: [],
+  picks: [
+    {
+      emoji: '🎨',
+      name: 'frontend-design',
+      desc: 'Create distinctive, production-grade frontend interfaces with bold aesthetics.',
+      install: 'npx skills add anthropics/skills@frontend-design'
+    },
+    {
+      emoji: '⚡',
+      name: 'shadcn/ui',
+      desc: 'Beautifully designed components built with Radix UI and Tailwind CSS.',
+      install: 'npx skills add shadcn/ui'
+    },
+    {
+      emoji: '✨',
+      name: 'polish',
+      desc: 'Final quality pass catching alignment, spacing, and interaction details.',
+      install: 'npx skills add pbakaus/impeccable@polish'
+    },
+    {
+      emoji: '🧠',
+      name: 'impeccable',
+      desc: 'Design principles and anti-patterns for pixel-perfect UI.',
+      install: 'npx skills add pbakaus/impeccable'
+    }
+  ]
+};
+
+// ============================================
+// State
+// ============================================
+let state = {
+  skills: [],
+  news: [],
+  filter: 'all',
+  searchQuery: ''
+};
+
+// ============================================
+// Format Helpers
+// ============================================
+function formatNumber(n) {
+  if (n >= 1000000) return (n / 1000000).toFixed(1) + 'M';
+  if (n >= 1000) return (n / 1000).toFixed(1) + 'K';
+  return n;
+}
+
+function formatDate(dateStr) {
+  try {
+    const d = new Date(dateStr);
+    return d.toLocaleDateString('zh-CN', { month: 'short', day: 'numeric', year: 'numeric' });
+  } catch { return dateStr; }
+}
+
+function timeAgo(dateStr) {
+  try {
+    const now = new Date();
+    const d = new Date(dateStr);
+    const diff = Math.floor((now - d) / 1000);
+    if (diff < 60) return 'just now';
+    if (diff < 3600) return Math.floor(diff / 60) + 'm ago';
+    if (diff < 86400) return Math.floor(diff / 3600) + 'h ago';
+    return Math.floor(diff / 86400) + 'd ago';
+  } catch { return ''; }
+}
+
+function todayStr() {
+  return new Date().toLocaleDateString('en-US', {
+    weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+  });
+}
+
+// ============================================
+// Theme Toggle
+// ============================================
+const themeToggle = document.getElementById('themeToggle');
+const html = document.documentElement;
+
+function toggleTheme() {
+  const current = html.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  html.setAttribute('data-theme', next);
+  themeToggle.textContent = next === 'dark' ? '🌙' : '☀️';
+  localStorage.setItem('ai-skills-theme', next);
+}
+
+themeToggle.addEventListener('click', toggleTheme);
+
+// Restore theme
+const saved = localStorage.getItem('ai-skills-theme');
+if (saved) {
+  html.setAttribute('data-theme', saved);
+  themeToggle.textContent = saved === 'dark' ? '🌙' : '☀️';
+}
+
+// ============================================
+// Skills Rendering
+// ============================================
+function getCategoryClass(cat) {
+  const map = { design: 'cat-design', frontend: 'cat-frontend', mobile: 'cat-mobile' };
+  return map[cat?.toLowerCase()] || 'cat-other';
+}
+
+function renderSkills(skills) {
+  const grid = document.getElementById('skillsGrid');
+
+  if (!skills || skills.length === 0) {
+    grid.innerHTML = `
+      <div class="state-message" style="grid-column: 1/-1;">
+        <span class="icon">🔍</span>
+        No skills found. Try a different search or filter.
+        <button class="retry-btn" onclick="loadData()">Refresh Data</button>
+      </div>
+    `;
+    document.getElementById('skillsCount').textContent = '(0)';
+    return;
+  }
+
+  grid.innerHTML = skills.map((s, i) => `
+    <div class="skill-card" onclick="window.open('https://skills.sh/${s.repo || ''}', '_blank')">
+      <span class="skill-rank">#${i + 1}</span>
+      <div class="skill-card-top">
+        <span class="skill-category ${getCategoryClass(s.category)}">${s.category || 'other'}</span>
+      </div>
+      <div class="skill-name">${s.name}</div>
+      <div class="skill-desc">${s.description || 'No description available.'}</div>
+      <div class="skill-meta">
+        <span class="skill-installs">⬇ <span class="num">${formatNumber(s.installs || 0)}</span> installs</span>
+        ${s.repo ? `<span>${s.repo}</span>` : ''}
+      </div>
+    </div>
+  `).join('');
+
+  document.getElementById('skillsCount').textContent = `(${skills.length})`;
+}
+
+// ============================================
+// Filter + Search
+// ============================================
+function filterSkills() {
+  let filtered = state.skills;
+
+  if (state.filter !== 'all') {
+    filtered = filtered.filter(s => (s.category || '').toLowerCase() === state.filter);
+  }
+
+  if (state.searchQuery) {
+    const q = state.searchQuery.toLowerCase();
+    filtered = filtered.filter(s =>
+      s.name.toLowerCase().includes(q) ||
+      (s.description || '').toLowerCase().includes(q) ||
+      (s.repo || '').toLowerCase().includes(q)
+    );
+  }
+
+  renderSkills(filtered);
+}
+
+// Filter buttons
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    state.filter = btn.dataset.filter;
+    filterSkills();
+  });
+});
+
+// Search
+const searchInput = document.getElementById('searchInput');
+searchInput.addEventListener('input', () => {
+  state.searchQuery = searchInput.value.trim();
+  filterSkills();
+});
+
+// ============================================
+// News Rendering
+// ============================================
+function renderNews(news) {
+  const list = document.getElementById('newsList');
+
+  if (!news || news.length === 0) {
+    list.innerHTML = `
+      <div class="state-message">
+        <span class="icon">📭</span>
+        No news yet. Data updates daily.
+        <button class="retry-btn" onclick="loadData()">Refresh Data</button>
+      </div>
+    `;
+    document.getElementById('newsCount').textContent = '(0)';
+    return;
+  }
+
+  list.innerHTML = news.map(n => {
+    const badgeClass = n.type === 'github' ? 'github' : 'paper';
+    const badgeIcon = n.type === 'github' ? '★' : '📄';
+    return `
+      <a href="${n.url}" target="_blank" rel="noopener" class="news-item">
+        <div class="news-badge ${badgeClass}">${badgeIcon}</div>
+        <div class="news-content">
+          <div class="news-title">${n.title}</div>
+          <div class="news-source">
+            ${n.source || ''}
+            ${n.publishedAt ? ` · ${timeAgo(n.publishedAt)}` : ''}
+            ${n.authors?.length ? ` · ${n.authors.slice(0,2).join(', ')}` : ''}
+          </div>
+        </div>
+        <div class="news-score">★ ${formatNumber(n.score || 0)}</div>
+      </a>
+    `;
+  }).join('');
+
+  document.getElementById('newsCount').textContent = `(${news.length})`;
+}
+
+// ============================================
+// Picks Rendering
+// ============================================
+function renderPicks(picks) {
+  const grid = document.getElementById('picksGrid');
+  grid.innerHTML = picks.map(p => `
+    <div class="pick-card">
+      <span class="emoji">${p.emoji}</span>
+      <div class="pick-name">${p.name}</div>
+      <div class="pick-desc">${p.desc}</div>
+      <div class="pick-install">${p.install}</div>
+    </div>
+  `).join('');
+}
+
+// ============================================
+// Data Loading
+// ============================================
+async function loadData() {
+  // Show loading states
+  document.getElementById('skillsGrid').innerHTML = `
+    <div class="state-message" style="grid-column: 1/-1;">
+      <span class="icon">⏳</span>
+      Loading skills...
+    </div>
+  `;
+  document.getElementById('newsList').innerHTML = `
+    <div class="state-message">
+      <span class="icon">⏳</span>
+      Loading news...
+    </div>
+  `;
+
+  // Try to fetch data files
+  let skillsData = null;
+  let newsData = null;
+
+  try {
+    const skillsResp = await fetch('./data/skills.json?_=' + Date.now());
+    if (skillsResp.ok) skillsData = await skillsResp.json();
+  } catch (e) { console.warn('Skills fetch failed:', e); }
+
+  try {
+    const newsResp = await fetch('./data/news.json?_=' + Date.now());
+    if (newsResp.ok) newsData = await newsResp.json();
+  } catch (e) { console.warn('News fetch failed:', e); }
+
+  // Process skills
+  if (skillsData?.skills?.length) {
+    state.skills = skillsData.skills;
+  } else {
+    state.skills = [];
+  }
+
+  // Process news
+  if (newsData?.articles?.length) {
+    state.news = newsData.articles.slice(0, 30);
+  } else {
+    state.news = [];
+  }
+
+  // Update hero stats
+  document.getElementById('statSkills').textContent = formatNumber(state.skills.length);
+  document.getElementById('statNews').textContent = formatNumber(state.news.length);
+  document.getElementById('statUpdated').textContent = skillsData?.lastUpdated
+    ? timeAgo(skillsData.lastUpdated)
+    : '—';
+
+  // Render
+  filterSkills();
+  renderNews(state.news);
+  renderPicks(INITIAL_DATA.picks);
+
+  // Date display
+  document.getElementById('currentDate').textContent = todayStr();
+}
+
+// ============================================
+// Intersection Observer for scroll animations
+// ============================================
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.style.animationPlayState = 'running';
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.skill-card, .news-item, .pick-card').forEach(el => {
+  el.style.animationPlayState = 'paused';
+  observer.observe(el);
+});
+
+// ============================================
+// Init
+// ============================================
+document.addEventListener('DOMContentLoaded', loadData);
+</script>
+</body>
+</html>

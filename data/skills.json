@@ -1,0 +1,222 @@
+{
+  "lastUpdated": "2026-06-01T11:26:52.080Z",
+  "total": 27,
+  "skills": [
+    {
+      "name": "frontend-design",
+      "repo": "anthropics/skills",
+      "installs": 485800,
+      "category": "design",
+      "description": "Distinctive, production-grade frontend interfaces",
+      "updatedAt": "2026-06-01T11:26:52.079Z"
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "repo": "vercel-labs/agent-skills",
+      "installs": 441800,
+      "category": "frontend",
+      "description": "React best practices from Vercel Engineering",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "web-design-guidelines",
+      "repo": "vercel-labs/agent-skills",
+      "installs": 357400,
+      "category": "design",
+      "description": "Web design guidelines and best practices",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "remotion-best-practices",
+      "repo": "remotion-dev/skills",
+      "installs": 342000,
+      "category": "frontend",
+      "description": "Programmatic video creation with Remotion",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "vercel-composition-patterns",
+      "repo": "vercel-labs/agent-skills",
+      "installs": 194900,
+      "category": "frontend",
+      "description": "React composition patterns",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "installs": 193800,
+      "category": "design",
+      "description": "Pro-level UI/UX design patterns",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "sleek-design-mobile-apps",
+      "repo": "sleekdotdesign/agent-skills",
+      "installs": 182300,
+      "category": "design",
+      "description": "Sleek mobile app design system",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "shadcn",
+      "repo": "shadcn/ui",
+      "installs": 169200,
+      "category": "frontend",
+      "description": "Beautiful UI components by shadcn",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "impeccable",
+      "repo": "pbakaus/impeccable",
+      "installs": 141700,
+      "category": "design",
+      "description": "Impeccable design principles and anti-patterns",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "vercel-react-native-skills",
+      "repo": "vercel-labs/agent-skills",
+      "installs": 131300,
+      "category": "mobile",
+      "description": "React Native development skills",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "extract-design-system",
+      "repo": "arvindrk/extract-design-system",
+      "installs": 118700,
+      "category": "design",
+      "description": "Extract design system from existing code",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "next-best-practices",
+      "repo": "vercel-labs/next-skills",
+      "installs": 97500,
+      "category": "frontend",
+      "description": "Next.js best practices and patterns",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "design-taste-frontend",
+      "repo": "leonxlnx/taste-skill",
+      "installs": 97100,
+      "category": "design",
+      "description": "Design taste for frontend development",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "polish",
+      "repo": "pbakaus/impeccable",
+      "installs": 85800,
+      "category": "design",
+      "description": "UI polish and refinement pass",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "critique",
+      "repo": "pbakaus/impeccable",
+      "installs": 83200,
+      "category": "design",
+      "description": "UI critique and improvement analysis",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "high-end-visual-design",
+      "repo": "leonxlnx/taste-skill",
+      "installs": 83000,
+      "category": "design",
+      "description": "High-end visual design system",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "audit",
+      "repo": "pbakaus/impeccable",
+      "installs": 82400,
+      "category": "design",
+      "description": "UI audit and quality assessment",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "animate",
+      "repo": "pbakaus/impeccable",
+      "installs": 82300,
+      "category": "design",
+      "description": "Web animation patterns and best practices",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "redesign-existing-projects",
+      "repo": "leonxlnx/taste-skill",
+      "installs": 81200,
+      "category": "design",
+      "description": "Redesign and modernize existing projects",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "bolder",
+      "repo": "pbakaus/impeccable",
+      "installs": 80600,
+      "category": "design",
+      "description": "Bolder UI design decisions",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "delight",
+      "repo": "pbakaus/impeccable",
+      "installs": 80400,
+      "category": "design",
+      "description": "UI delight and micro-interactions",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "distill",
+      "repo": "pbakaus/impeccable",
+      "installs": 80000,
+      "category": "design",
+      "description": "UI distillation and simplification",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "quieter",
+      "repo": "pbakaus/impeccable",
+      "installs": 79200,
+      "category": "design",
+      "description": "Subtle and quiet UI design",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "minimalist-ui",
+      "repo": "leonxlnx/taste-skill",
+      "installs": 76100,
+      "category": "design",
+      "description": "Minimalist UI design system",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "emil-design-eng",
+      "repo": "emilkowalski/skill",
+      "installs": 75300,
+      "category": "design",
+      "description": "Design engineering by Emil Kowalski",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "industrial-brutalist-ui",
+      "repo": "leonxlnx/taste-skill",
+      "installs": 70700,
+      "category": "design",
+      "description": "Industrial brutalist UI design",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    },
+    {
+      "name": "stitch-design-taste",
+      "repo": "leonxlnx/taste-skill",
+      "installs": 70400,
+      "category": "design",
+      "description": "Stitch design taste patterns",
+      "updatedAt": "2026-06-01T11:26:52.080Z"
+    }
+  ]
+}

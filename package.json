@@ -1,0 +1,16 @@
+{
+  "name": "ai-skills-daily",
+  "version": "1.0.0",
+  "description": "AI Skills Daily - AI圈最新技能与资讯每日更新",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update": "node scripts/fetch-skills.js && node scripts/fetch-news.js",
+    "update:skills": "node scripts/fetch-skills.js",
+    "update:news": "node scripts/fetch-news.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "rss-parser": "^3.13.0"
+  }
+}
