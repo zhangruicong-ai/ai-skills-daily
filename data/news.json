@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T11:32:21.750Z",
+  "lastUpdated": "2026-06-01T12:01:31.116Z",
   "total": 65,
   "articles": [
     {
@@ -11,9 +11,9 @@
       "authors": [
         "langgenius"
       ],
-      "score": 143388,
+      "score": 143389,
       "language": "TypeScript",
-      "forks": 22564,
+      "forks": 22565,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -27,7 +27,7 @@
       "authors": [
         "hiyouga"
       ],
-      "score": 71760,
+      "score": 71761,
       "language": "Python",
       "forks": 8771,
       "source": "GitHub Trending",
@@ -43,7 +43,7 @@
       "authors": [
         "bytedance"
       ],
-      "score": 70170,
+      "score": 70173,
       "language": "Python",
       "forks": 9473,
       "source": "GitHub Trending",
@@ -61,7 +61,7 @@
       ],
       "score": 46550,
       "language": "Java",
-      "forks": 16028,
+      "forks": 16029,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -75,7 +75,7 @@
       "authors": [
         "reworkd"
       ],
-      "score": 36158,
+      "score": 36159,
       "language": "TypeScript",
       "forks": 9336,
       "source": "GitHub Trending",
@@ -91,7 +91,7 @@
       "authors": [
         "khoj-ai"
       ],
-      "score": 34790,
+      "score": 34792,
       "language": "Python",
       "forks": 2214,
       "source": "GitHub Trending",
@@ -107,7 +107,7 @@
       "authors": [
         "AstrBotDevs"
       ],
-      "score": 33591,
+      "score": 33594,
       "language": "Python",
       "forks": 2300,
       "source": "GitHub Trending",
@@ -123,7 +123,7 @@
       "authors": [
         "continuedev"
       ],
-      "score": 33476,
+      "score": 33478,
       "language": "TypeScript",
       "forks": 4590,
       "source": "GitHub Trending",
@@ -155,7 +155,7 @@
       "authors": [
         "deepset-ai"
       ],
-      "score": 25429,
+      "score": 25430,
       "language": "MDX",
       "forks": 2819,
       "source": "GitHub Trending",
@@ -219,7 +219,7 @@
       "authors": [
         "Tencent"
       ],
-      "score": 15865,
+      "score": 15866,
       "language": "Go",
       "forks": 2034,
       "source": "GitHub Trending",
@@ -235,12 +235,24 @@
       "authors": [
         "datawhalechina"
       ],
-      "score": 15487,
+      "score": 15488,
       "language": "JavaScript",
       "forks": 1476,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
+    },
+    {
+      "id": "",
+      "title": "GrepSeek: Training Search Agents for Direct Corpus Interaction",
+      "summary": "Large Language Model (LLM) search agents have shown strong promise for knowledge-intensive language tasks through multiple rounds of reasoning and information retrieval. Most existing systems access information using a retriever that takes a keyword or natural language query and returns a ranked list of documents using an index of pre-computed document representations. In this work, we explore a complementary perspective in which the search agent treats the corpus itself as the search environmen",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-05-27T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
     },
     {
       "id": "",
@@ -828,18 +840,6 @@
       "score": 0,
       "source": "Hugging Face Daily Papers",
       "category": "模型训练与优化",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation",
-      "summary": "Robot manipulation critically depends on perception that preserves the action-relevant aspects of a scene. Yet most robot learning pipelines are built upon visual encoders pre-trained for static recognition or vision-language alignment, leaving motion understanding to downstream policies. We introduce DynaFLIP, a dynamics-aware multimodal pre-training framework that pushes motion understanding upstream into perception. We construct image-language-3D flow triplets from heterogeneous human and rob",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-05-27T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "多模态 AI",
       "type": "paper"
     }
   ]
