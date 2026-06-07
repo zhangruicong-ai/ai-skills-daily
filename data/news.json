@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T09:36:22.866Z",
+  "lastUpdated": "2026-06-07T10:38:58.236Z",
   "total": 65,
   "articles": [
     {
@@ -11,9 +11,9 @@
       "authors": [
         "langgenius"
       ],
-      "score": 144098,
+      "score": 144233,
       "language": "TypeScript",
-      "forks": 22679,
+      "forks": 22700,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -27,9 +27,9 @@
       "authors": [
         "hiyouga"
       ],
-      "score": 71936,
+      "score": 71957,
       "language": "Python",
-      "forks": 8793,
+      "forks": 8797,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -43,9 +43,9 @@
       "authors": [
         "bytedance"
       ],
-      "score": 70583,
+      "score": 70642,
       "language": "Python",
-      "forks": 9554,
+      "forks": 9564,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -59,9 +59,9 @@
       "authors": [
         "jeecgboot"
       ],
-      "score": 46630,
+      "score": 46648,
       "language": "Java",
-      "forks": 16038,
+      "forks": 16043,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -75,9 +75,9 @@
       "authors": [
         "reworkd"
       ],
-      "score": 36156,
+      "score": 36159,
       "language": "TypeScript",
-      "forks": 9332,
+      "forks": 9330,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -91,9 +91,9 @@
       "authors": [
         "khoj-ai"
       ],
-      "score": 34894,
+      "score": 34957,
       "language": "Python",
-      "forks": 2223,
+      "forks": 2230,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -107,9 +107,9 @@
       "authors": [
         "AstrBotDevs"
       ],
-      "score": 33913,
+      "score": 34046,
       "language": "Python",
-      "forks": 2331,
+      "forks": 2336,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -123,25 +123,25 @@
       "authors": [
         "continuedev"
       ],
-      "score": 33559,
+      "score": 33577,
       "language": "TypeScript",
-      "forks": 4612,
+      "forks": 4616,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
     },
     {
       "id": "655515393",
-      "title": "CopilotKit - The Frontend Stack for Agents & Generative UI. React + Angular.  Makers of the AG-UI Protocol",
-      "summary": "The Frontend Stack for Agents & Generative UI. React + Angular.  Makers of the AG-UI Protocol",
+      "title": "CopilotKit - The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
+      "summary": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
       "url": "https://github.com/CopilotKit/CopilotKit",
       "publishedAt": "2023-06-19T04:08:31Z",
       "authors": [
         "CopilotKit"
       ],
-      "score": 32900,
+      "score": 33500,
       "language": "TypeScript",
-      "forks": 4213,
+      "forks": 4263,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -155,7 +155,7 @@
       "authors": [
         "deepset-ai"
       ],
-      "score": 25466,
+      "score": 25473,
       "language": "MDX",
       "forks": 2830,
       "source": "GitHub Trending",
@@ -171,7 +171,7 @@
       "authors": [
         "vanna-ai"
       ],
-      "score": 23569,
+      "score": 23574,
       "language": "Python",
       "forks": 2416,
       "source": "GitHub Trending",
@@ -187,9 +187,9 @@
       "authors": [
         "google"
       ],
-      "score": 20001,
+      "score": 20006,
       "language": "Python",
-      "forks": 3518,
+      "forks": 3521,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -203,9 +203,9 @@
       "authors": [
         "SWE-agent"
       ],
-      "score": 19437,
+      "score": 19443,
       "language": "Python",
-      "forks": 2117,
+      "forks": 2118,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -219,25 +219,25 @@
       "authors": [
         "datawhalechina"
       ],
-      "score": 16293,
+      "score": 16444,
       "language": "JavaScript",
-      "forks": 1532,
+      "forks": 1547,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
     },
     {
-      "id": "1024118326",
-      "title": "WeKnora - Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "summary": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "url": "https://github.com/Tencent/WeKnora",
-      "publishedAt": "2025-07-22T08:01:23Z",
+      "id": "1129940957",
+      "title": "headroom - Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "url": "https://github.com/chopratejas/headroom",
+      "publishedAt": "2026-01-07T19:58:51Z",
       "authors": [
-        "Tencent"
+        "chopratejas"
       ],
-      "score": 16028,
-      "language": "Go",
-      "forks": 2060,
+      "score": 16363,
+      "language": "Python",
+      "forks": 1035,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
