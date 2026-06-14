@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T11:00:43.977Z",
+  "lastUpdated": "2026-06-14T11:35:36.505Z",
   "total": 65,
   "articles": [
     {
@@ -11,9 +11,9 @@
       "authors": [
         "langgenius"
       ],
-      "score": 145047,
+      "score": 145155,
       "language": "TypeScript",
-      "forks": 22825,
+      "forks": 22842,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -27,7 +27,7 @@
       "authors": [
         "hiyouga"
       ],
-      "score": 72128,
+      "score": 72149,
       "language": "Python",
       "forks": 8825,
       "source": "GitHub Trending",
@@ -43,9 +43,9 @@
       "authors": [
         "bytedance"
       ],
-      "score": 71087,
+      "score": 71138,
       "language": "Python",
-      "forks": 9631,
+      "forks": 9640,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -59,7 +59,7 @@
       "authors": [
         "jeecgboot"
       ],
-      "score": 46722,
+      "score": 46740,
       "language": "Java",
       "forks": 16050,
       "source": "GitHub Trending",
@@ -75,9 +75,9 @@
       "authors": [
         "reworkd"
       ],
-      "score": 36190,
+      "score": 36191,
       "language": "TypeScript",
-      "forks": 9325,
+      "forks": 9324,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -91,9 +91,9 @@
       "authors": [
         "khoj-ai"
       ],
-      "score": 35099,
+      "score": 35119,
       "language": "Python",
-      "forks": 2246,
+      "forks": 2249,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -107,9 +107,9 @@
       "authors": [
         "CopilotKit"
       ],
-      "score": 34947,
+      "score": 35061,
       "language": "TypeScript",
-      "forks": 4354,
+      "forks": 4363,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -123,9 +123,9 @@
       "authors": [
         "AstrBotDevs"
       ],
-      "score": 34574,
+      "score": 34624,
       "language": "Python",
-      "forks": 2373,
+      "forks": 2385,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -139,25 +139,9 @@
       "authors": [
         "continuedev"
       ],
-      "score": 33669,
+      "score": 33682,
       "language": "TypeScript",
-      "forks": 4650,
-      "source": "GitHub Trending",
-      "category": "AI 开源项目",
-      "type": "github"
-    },
-    {
-      "id": "221654678",
-      "title": "haystack - Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval,",
-      "summary": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
-      "url": "https://github.com/deepset-ai/haystack",
-      "publishedAt": "2019-11-14T09:05:28Z",
-      "authors": [
-        "deepset-ai"
-      ],
-      "score": 25559,
-      "language": "MDX",
-      "forks": 2847,
+      "forks": 4655,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -171,9 +155,25 @@
       "authors": [
         "chopratejas"
       ],
-      "score": 25425,
+      "score": 26902,
       "language": "Python",
-      "forks": 1676,
+      "forks": 1807,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "221654678",
+      "title": "haystack - Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval,",
+      "summary": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
+      "url": "https://github.com/deepset-ai/haystack",
+      "publishedAt": "2019-11-14T09:05:28Z",
+      "authors": [
+        "deepset-ai"
+      ],
+      "score": 25562,
+      "language": "MDX",
+      "forks": 2849,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -203,9 +203,9 @@
       "authors": [
         "google"
       ],
-      "score": 20093,
+      "score": 20100,
       "language": "Python",
-      "forks": 3559,
+      "forks": 3563,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -219,9 +219,9 @@
       "authors": [
         "SWE-agent"
       ],
-      "score": 19498,
+      "score": 19505,
       "language": "Python",
-      "forks": 2131,
+      "forks": 2133,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -235,9 +235,9 @@
       "authors": [
         "datawhalechina"
       ],
-      "score": 16848,
+      "score": 16884,
       "language": "JavaScript",
-      "forks": 1587,
+      "forks": 1588,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
