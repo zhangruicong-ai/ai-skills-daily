@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T18:16:04.662Z",
+  "lastUpdated": "2026-06-23T12:24:48.677Z",
   "total": 27,
   "skills": [
     {
@@ -8,7 +8,7 @@
       "installs": 485800,
       "category": "design",
       "description": "Distinctive, production-grade frontend interfaces",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "vercel-react-best-practices",
@@ -16,7 +16,7 @@
       "installs": 441800,
       "category": "frontend",
       "description": "React best practices from Vercel Engineering",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "web-design-guidelines",
@@ -24,7 +24,7 @@
       "installs": 357400,
       "category": "design",
       "description": "Web design guidelines and best practices",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "remotion-best-practices",
@@ -32,7 +32,7 @@
       "installs": 342000,
       "category": "frontend",
       "description": "Programmatic video creation with Remotion",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "vercel-composition-patterns",
@@ -40,7 +40,7 @@
       "installs": 194900,
       "category": "frontend",
       "description": "React composition patterns",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "ui-ux-pro-max",
@@ -48,7 +48,7 @@
       "installs": 193800,
       "category": "design",
       "description": "Pro-level UI/UX design patterns",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "sleek-design-mobile-apps",
@@ -56,7 +56,7 @@
       "installs": 182300,
       "category": "design",
       "description": "Sleek mobile app design system",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "shadcn",
@@ -64,7 +64,7 @@
       "installs": 169200,
       "category": "frontend",
       "description": "Beautiful UI components by shadcn",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "impeccable",
@@ -72,7 +72,7 @@
       "installs": 141700,
       "category": "design",
       "description": "Impeccable design principles and anti-patterns",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "vercel-react-native-skills",
@@ -80,7 +80,7 @@
       "installs": 131300,
       "category": "mobile",
       "description": "React Native development skills",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "extract-design-system",
@@ -88,7 +88,7 @@
       "installs": 118700,
       "category": "design",
       "description": "Extract design system from existing code",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "next-best-practices",
@@ -96,7 +96,7 @@
       "installs": 97500,
       "category": "frontend",
       "description": "Next.js best practices and patterns",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "design-taste-frontend",
@@ -104,7 +104,7 @@
       "installs": 97100,
       "category": "design",
       "description": "Design taste for frontend development",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "polish",
@@ -112,7 +112,7 @@
       "installs": 85800,
       "category": "design",
       "description": "UI polish and refinement pass",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "critique",
@@ -120,7 +120,7 @@
       "installs": 83200,
       "category": "design",
       "description": "UI critique and improvement analysis",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "high-end-visual-design",
@@ -128,7 +128,7 @@
       "installs": 83000,
       "category": "design",
       "description": "High-end visual design system",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "audit",
@@ -136,7 +136,7 @@
       "installs": 82400,
       "category": "design",
       "description": "UI audit and quality assessment",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "animate",
@@ -144,7 +144,7 @@
       "installs": 82300,
       "category": "design",
       "description": "Web animation patterns and best practices",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "redesign-existing-projects",
@@ -152,7 +152,7 @@
       "installs": 81200,
       "category": "design",
       "description": "Redesign and modernize existing projects",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "bolder",
@@ -160,7 +160,7 @@
       "installs": 80600,
       "category": "design",
       "description": "Bolder UI design decisions",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "delight",
@@ -168,7 +168,7 @@
       "installs": 80400,
       "category": "design",
       "description": "UI delight and micro-interactions",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "distill",
@@ -176,7 +176,7 @@
       "installs": 80000,
       "category": "design",
       "description": "UI distillation and simplification",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "quieter",
@@ -184,7 +184,7 @@
       "installs": 79200,
       "category": "design",
       "description": "Subtle and quiet UI design",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "minimalist-ui",
@@ -192,7 +192,7 @@
       "installs": 76100,
       "category": "design",
       "description": "Minimalist UI design system",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "emil-design-eng",
@@ -200,7 +200,7 @@
       "installs": 75300,
       "category": "design",
       "description": "Design engineering by Emil Kowalski",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "industrial-brutalist-ui",
@@ -208,7 +208,7 @@
       "installs": 70700,
       "category": "design",
       "description": "Industrial brutalist UI design",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     },
     {
       "name": "stitch-design-taste",
@@ -216,7 +216,7 @@
       "installs": 70400,
       "category": "design",
       "description": "Stitch design taste patterns",
-      "updatedAt": "2026-06-22T18:16:04.662Z"
+      "updatedAt": "2026-06-23T12:24:48.677Z"
     }
   ]
 }
