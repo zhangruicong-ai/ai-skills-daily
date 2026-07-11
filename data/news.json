@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T06:05:42.242Z",
+  "lastUpdated": "2026-07-11T05:14:43.913Z",
   "total": 65,
   "articles": [
     {
@@ -11,9 +11,9 @@
       "authors": [
         "langgenius"
       ],
-      "score": 148352,
+      "score": 148456,
       "language": "TypeScript",
-      "forks": 23387,
+      "forks": 23401,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -27,9 +27,9 @@
       "authors": [
         "bytedance"
       ],
-      "score": 76672,
+      "score": 76743,
       "language": "Python",
-      "forks": 10410,
+      "forks": 10421,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -43,9 +43,9 @@
       "authors": [
         "hiyouga"
       ],
-      "score": 73120,
+      "score": 73153,
       "language": "Python",
-      "forks": 8935,
+      "forks": 8936,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -59,9 +59,9 @@
       "authors": [
         "headroomlabs-ai"
       ],
-      "score": 58229,
+      "score": 58443,
       "language": "Python",
-      "forks": 4301,
+      "forks": 4314,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -75,9 +75,9 @@
       "authors": [
         "jeecgboot"
       ],
-      "score": 46993,
+      "score": 47008,
       "language": "Java",
-      "forks": 16084,
+      "forks": 16085,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -91,9 +91,9 @@
       "authors": [
         "reworkd"
       ],
-      "score": 36260,
+      "score": 36264,
       "language": "TypeScript",
-      "forks": 9304,
+      "forks": 9303,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -107,9 +107,9 @@
       "authors": [
         "AstrBotDevs"
       ],
-      "score": 36117,
+      "score": 36180,
       "language": "Python",
-      "forks": 2508,
+      "forks": 2514,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -123,9 +123,9 @@
       "authors": [
         "CopilotKit"
       ],
-      "score": 35889,
+      "score": 35914,
       "language": "TypeScript",
-      "forks": 4438,
+      "forks": 4437,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -139,9 +139,9 @@
       "authors": [
         "khoj-ai"
       ],
-      "score": 35609,
+      "score": 35633,
       "language": "Python",
-      "forks": 2297,
+      "forks": 2299,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -155,9 +155,9 @@
       "authors": [
         "deepset-ai"
       ],
-      "score": 25860,
+      "score": 25865,
       "language": "MDX",
-      "forks": 2908,
+      "forks": 2911,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -171,9 +171,9 @@
       "authors": [
         "vanna-ai"
       ],
-      "score": 23758,
+      "score": 23760,
       "language": "Python",
-      "forks": 2445,
+      "forks": 2444,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -187,9 +187,9 @@
       "authors": [
         "google"
       ],
-      "score": 20542,
+      "score": 20558,
       "language": "Python",
-      "forks": 3670,
+      "forks": 3677,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -203,9 +203,9 @@
       "authors": [
         "SWE-agent"
       ],
-      "score": 19758,
+      "score": 19765,
       "language": "Python",
-      "forks": 2159,
+      "forks": 2161,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -219,9 +219,9 @@
       "authors": [
         "Tencent"
       ],
-      "score": 18061,
+      "score": 18114,
       "language": "Go",
-      "forks": 2468,
+      "forks": 2477,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -235,12 +235,120 @@
       "authors": [
         "datawhalechina"
       ],
-      "score": 18010,
+      "score": 18038,
       "language": "JavaScript",
-      "forks": 1717,
+      "forks": 1719,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
+    },
+    {
+      "id": "",
+      "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
+      "summary": "In long-horizon tasks, decision-relevant state is often scattered across an expanding trajectory, while the action agent must surface it and act. As trajectories grow, task requirements, environment facts, prior attempts, diagnoses, and open subgoals can be buried in the context window or pushed beyond it, failing to influence decisions when needed. We call this failure mode \"behavioral state decay\". We study memory as an active intervention mechanism rather than passive retrieval. A separate me",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-08T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "强化学习",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "PAST-TIDE: Prototype-Anchored Statement Tuning with Topic-Invariant Normalization for Stance Detection",
+      "summary": "We introduce PAST-TIDE, our stance detection system addressing both subtasks of the StanceNakba Shared Task at NakbaNLP@LREC-COLING 2026. The main idea is statement tuning. We redefine stance as cloze-style masked language modeling (MLM), letting a verbalizer map label words to stance categories through the pre-trained MLM head rather than appending a randomly initialized classification head. We complement this with prototypical contrastive learning, which uses learnable class prototypes for bat",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-05T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "SAM-MT: Real-Time Interactive Multi-Target Video Segmentation",
+      "summary": "Modern Video Object Segmentation (VOS) involves tracking and segmenting user-specified targets. While recent approaches have achieved remarkable performance in single-target scenarios, extending them to multi-target settings typically involves replicating the single-target processing for each individual object, resulting in reduced frame rates (FPS) with unbounded latency as target count increases. Built upon Segment Anything 2 (SAM2), we propose SAM-MT, which addresses this by transforming the ",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-08T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "A Sparse and Truncated State Vector Simulator for Peaked Circuits",
+      "summary": "In a class of quantum circuits known as peaked circuits, the goal is to predict the most probable bit string at the output of the circuit. Since these circuits are designed to have a sharp peak in their output distribution, in principle it should be possible to simulate them using a truncated state vector with a limited number of terms, or a fraction of the total probability mass. This approximate simulation can be carried out on a classical computer with a sparse representation that stores only",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-07T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "模型训练与优化",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Linear Attention Architectures: Mechanisms, Trade-offs, and Cross-Layer Routing",
+      "summary": "Self-attention lets each token retrieve information from the full context, but its quadratic cost in sequence length limits training and inference at long context. This paper presents a comparative study of softmax attention and four recent recurrent linear-attention architectures: DeltaNet, Gated DeltaNet, Kimi Delta Attention, and Gated DeltaNet-2. We express these mechanisms in a common recurrent-memory notation, making explicit how they differ in expressivity, memory decay, erase and write c",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-07T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "DrugGen 2: A disease-aware language model for enhancing drug discovery",
+      "summary": "Current computational approaches for drug design typically focus on generating molecules conditioned on specific targets or general molecular properties, often neglecting the influence of disease context on target behavior and therapeutic outcomes. To address this gap, we introduce DrugGen-2, a novel generative model that designs small molecules conditioned on both disease ontology and target protein sequences. DrugGen-2 was developed by fine-tuning a pre-trained GPT-2 model on a curated dataset",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-08T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models",
+      "summary": "Recovering high-quality video from sparse event streams is a challenging task. Regression methods often blur textures, while existing generative models struggle with long-term stability. We propose LongE2V, a novel approach that leverages pre-trained video diffusion priors to jointly handle event-based video reconstruction, prediction, and frame interpolation. By fine-tuning a foundational video model, our approach achieves high data efficiency and superior perceptual quality. We introduce Autor",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-08T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "多模态 AI",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Enhancing In-context Panoramic Generation via Geometric-aware Pretraining",
+      "summary": "In this work, we present Canvas360, a two-stage framework for in-context panoramic generation that combines geometry-aware pretraining with downstream task-specific fine-tuning. To address the lack of large-scale, high-quality training data tailored to in-context panoramic tasks, we propose Canvas360Dataset, a collection of 1M high-quality paired panoramic samples for style transfer, inpainting, outpainting, and editing, enabling effective supervision across diverse in-context generation scenari",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-08T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "强化学习",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "A Quantized Native Runtime for On-Device Semantic Audio Generation",
+      "summary": "Semantic audio applications increasingly require controllable generation on commodity and embedded hardware rather than through framework-heavy datacenter stacks. We present aria, a dependency-free native runtime that runs the complete text-to-music pipeline of Stable Audio~3 (SA3) on ordinary GPUs, CPU-only machines, and a Raspberry~Pi~5, with no Python or deep-learning framework underneath. Our main contribution is a study of quantization: running the model at lower numerical precision to fit ",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-08T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "模型训练与优化",
+      "type": "paper"
     },
     {
       "id": "",
@@ -732,114 +840,6 @@
       "score": 0,
       "source": "Hugging Face Daily Papers",
       "category": "强化学习",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Rank-Then-Act: Reward-Free Control from Frame-Order Progress",
-      "summary": "We introduce Rank-Then-Act (RTA), a framework for learning control policies from expert video demonstrations without environment rewards. RTA trains a Vision-Language Model (VLM) offline as a progress-based ordinal scorer, using a Group Relative Policy Optimization (GRPO) objective over shuffled frame sequences, which forces the model to recover temporal ordering from visual semantics rather than trivial time cues. Importantly, instead of using the scorer directly as a scalar reward model, we pr",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-01T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "SiamJEPA: On the Role of Siamese Student Encoders in JEPA",
-      "summary": "Recently, Joint Embedding Predictive Architectures (JEPAs) have attracted significant attention in the computer vision and machine learning communities as a promising framework for self-supervised representation learning. Unlike masked autoencoders that reconstruct pixels, JEPA models learn representations by predicting latent embeddings of masked regions. Existing JEPA-based methods, such as I-JEPA and V-JEPA, typically employ a single encoder in the student network. In contrast, using Siamese ",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-03T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "HunyuanOCR-1.5: Making Lightweight OCR VLMs Faster and Better",
-      "summary": "We present HunyuanOCR-1.5, a lightweight end-to-end OCR-specialized vision-language model. HunyuanOCR unifies document parsing, text spotting, information extraction, text-image translation, and multi-image document understanding within a single end-to-end VLM. Building upon the lightweight architecture of HunyuanOCR-1.0, HunyuanOCR-1.5 does not redesign the backbone, but systematically improves both efficiency and capability. For efficiency, we adapt DFlash to OCR decoding, significantly reduci",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-05T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Where to cut, how deep: BPE and Unigram-LM on chemistry SMILES",
-      "summary": "Every chemical language model reading SMILES begins with a tokenizer, yet the field has inherited byte-pair encoding (BPE) from natural language with little scrutiny. In natural language, BPE's principal alternative, Unigram-LM, is known to build structurally different vocabularies. Whether that contrast survives in chemistry was open. We report a controlled comparison of BPE and Unigram-LM over a fixed 165-token chemistry base, at the small vocabulary sizes where token embeddings are learnable,",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-05T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "CanvasAgent: Enabling Complex Image Creation and Editing via Visual Tool Orchestration",
-      "summary": "Complex image creation and editing often require more than a single generation or editing model. A user request may involve synthesizing images, localizing objects, segmenting regions, editing selected content, compositing intermediate assets, reading text, and enhancing the final result. Such tasks shift multimodal agents from perception-augmented reasoning to manipulation-centered visual creation, where tools must actively transform visual states rather than merely inspect them. However, exist",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-05T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "多模态 AI",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Bibby AI: An Editor-Native Agentic Platform for Academic Research, Writing, and Publishing",
-      "summary": "Academic output is produced across a fragmented toolchain: literature discovery in one application, reference management in another, writing in a LaTeX editor, formatting against venue templates by hand, and submission through yet another portal. Each boundary between tools forces a context switch, a format conversion, or a manual copy-paste step, and the cumulative cost dominates the time researchers spend on activities that are not research. We present Bibby AI, an editor-native platform that ",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-02T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "强化学习",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "From Foundation to Application: Improving VLA Models in Practice",
-      "summary": "Despite recent progress of VLA foundation models, the disparity between laboratory conditions and real-world applications continues to impede their practical implementation. To bridge this gap, we present LingBot-VLA 2.0, which advances LingBot-VLA through improvements in three functional domains. (1) Generalization across tasks and embodiments. Compared to the previous version, we revamp the data processing pipeline and curate around 60,000 hours of data for pretraining, including 50,000 hours ",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-06T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "强化学习",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Image2Sim: Scaling Embodied Navigation via Generative Neural Simulator",
-      "summary": "Embodied navigation aims to build agents that interpret multimodal goals, reason in 3D space, and reach target destinations reliably in the real world. However, progress remains constrained by the lack of scalable, high-fidelity, and physically grounded interactive environments. Although real-world scanned datasets offer visual realism, they are limited by scale. In contrast, synthetic simulators scale more easily but often exhibit large sim-to-real gaps. We introduce Image2Sim, a real-time neur",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-06T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "多模态 AI",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "PluraMath: Extending Mathematical Reasoning Evaluation Beyond High-Resource Languages",
-      "summary": "Mathematical reasoning has become a central task for evaluating and tuning reasoning Large Language Models (LLMs), yet existing benchmarks remain heavily biased toward high-resource languages, with English and Chinese dominating both pre-training corpora and evaluation suites. The recently released PolyMath (Wang et al., 2025) dataset represents a significant step forward, yet its coverage is still limited to 18 only high-resource languages. To address this gap, we introduce PluraMath, an extens",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-06T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
       "type": "paper"
     }
   ]
