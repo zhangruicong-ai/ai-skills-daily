@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T05:23:28.364Z",
+  "lastUpdated": "2026-07-20T05:41:14.064Z",
   "total": 65,
   "articles": [
     {
@@ -11,9 +11,9 @@
       "authors": [
         "langgenius"
       ],
-      "score": 149281,
+      "score": 149393,
       "language": "TypeScript",
-      "forks": 23519,
+      "forks": 23544,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -27,9 +27,9 @@
       "authors": [
         "bytedance"
       ],
-      "score": 77353,
+      "score": 77406,
       "language": "Python",
-      "forks": 10524,
+      "forks": 10537,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -43,9 +43,9 @@
       "authors": [
         "hiyouga"
       ],
-      "score": 73360,
+      "score": 73381,
       "language": "Python",
-      "forks": 8959,
+      "forks": 8960,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -59,9 +59,9 @@
       "authors": [
         "headroomlabs-ai"
       ],
-      "score": 59860,
+      "score": 60429,
       "language": "Python",
-      "forks": 4458,
+      "forks": 4524,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -75,9 +75,9 @@
       "authors": [
         "jeecgboot"
       ],
-      "score": 47125,
+      "score": 47131,
       "language": "Java",
-      "forks": 16097,
+      "forks": 16102,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -91,9 +91,9 @@
       "authors": [
         "AstrBotDevs"
       ],
-      "score": 36569,
+      "score": 36762,
       "language": "Python",
-      "forks": 2539,
+      "forks": 2551,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -109,7 +109,7 @@
       ],
       "score": 36280,
       "language": "TypeScript",
-      "forks": 9295,
+      "forks": 9296,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -123,9 +123,9 @@
       "authors": [
         "CopilotKit"
       ],
-      "score": 36144,
+      "score": 36165,
       "language": "TypeScript",
-      "forks": 4456,
+      "forks": 4460,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -139,9 +139,9 @@
       "authors": [
         "khoj-ai"
       ],
-      "score": 35865,
+      "score": 35883,
       "language": "Python",
-      "forks": 2318,
+      "forks": 2320,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -155,9 +155,9 @@
       "authors": [
         "deepset-ai"
       ],
-      "score": 25940,
+      "score": 25950,
       "language": "MDX",
-      "forks": 2933,
+      "forks": 2936,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -173,7 +173,7 @@
       ],
       "score": 23783,
       "language": "Python",
-      "forks": 2448,
+      "forks": 2449,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -187,9 +187,9 @@
       "authors": [
         "google"
       ],
-      "score": 20658,
+      "score": 20762,
       "language": "Python",
-      "forks": 3711,
+      "forks": 3721,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -203,9 +203,9 @@
       "authors": [
         "SWE-agent"
       ],
-      "score": 19848,
+      "score": 19861,
       "language": "Python",
-      "forks": 2168,
+      "forks": 2171,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -219,9 +219,9 @@
       "authors": [
         "Tencent"
       ],
-      "score": 18509,
+      "score": 18570,
       "language": "Go",
-      "forks": 2567,
+      "forks": 2582,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -235,12 +235,180 @@
       "authors": [
         "datawhalechina"
       ],
-      "score": 18311,
+      "score": 18337,
       "language": "JavaScript",
-      "forks": 1747,
+      "forks": 1752,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
+    },
+    {
+      "id": "",
+      "title": "RAGU: A Multi-Step GraphRAG Engine with a Compact Domain-Adapted LLM",
+      "summary": "Graph retrieval-augmented generation (GraphRAG) enhances large language models with structured knowledge, yet existing systems construct knowledge graphs in a single extraction pass, producing noisy entities and brittle retrieval. RAGU, an open-source modular GraphRAG engine, addresses this by separating extraction from consolidation: entities and relations pass through two-stage typed extraction, DBSCAN-backed deduplication, LLM summarization, and Leiden community detection. A key insight motiv",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-12T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Qwen-Music Technical Report",
+      "summary": "In this report, we introduce Qwen-Music, a powerful music generation model capable of producing highly musical and high-fidelity songs with complete vocal singing. Qwen-Music supports two core tasks: Text to Music Generation, which create entirely new songs from text descriptions, lyrics, and musical attributes, and Cover Song Generation, which reinterprets existing songs with different styles and vocal characteristics. Architecturally, Qwen-Music integrates three core components: Qwen-Music-Tok",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-12T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "VideoRAE: Taming Video Foundation Models for Generative Modeling via Representation Autoencoders",
+      "summary": "Video generative models commonly rely on latent spaces learned by 3D Variational Autoencoders (3D-VAEs). However, conventional 3D-VAEs are mainly optimized for pixel-level reconstruction, which can limit the semantic and spatio-temporal structure captured by their latents. Meanwhile, Video Foundation Models (VFMs) such as V-JEPA 2 and VideoMAEv2 show strong video understanding capabilities, yet whether their frozen representations can be transformed into compact, reconstruction-capable, and gene",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-14T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Xiaomi-Robotics-1: Scaling Vision-Language-Action Models with over 100K Hours of Real-World Trajectories",
+      "summary": "We present Xiaomi-Robotics-1, a foundational vision-language-action (VLA) model capable of (1) following diverse language instructions to perform a wide range of mobile manipulation tasks in unseen environments out-of-the-box, and (2) efficiently adapting to novel downstream tasks with minimal fine-tuning data. We propose a two-stage training recipe consisting of pre-training and post-training. During pre-training, we imbue the model with broad and generalizable action-generation capabilities by",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-15T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "多模态 AI",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "On-Policy Delta Distillation",
+      "summary": "On-policy distillation is an alternative post-training method in reinforcement learning that alleviates the constraints imposed by reward models by providing token-level supervision from a teacher model. Although on-policy distillation has been studied and applied across various settings, its fundamental design remains underexplored. In this paper, we introduce a new distillation reward, termed the delta signal, instead of directly imitating the teacher's output distribution. The delta signal is",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-15T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "DSWorld: A Data Science World Model for Efficient Autonomous Agents",
+      "summary": "Despite strong capabilities in data understanding and decision-making, autonomous data science agents still heavily rely on trial-and-error workflows that involve expensive computation. This bottleneck motivates models that can anticipate the effects of data science operations before real execution. In this paper, we introduce the concept of Data Science World Model, which model the data science execution environment by predicting environment state transitions conditioned on current workflow sta",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-16T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "xHC: Expanded Hyper-Connections",
+      "summary": "Hyper-Connections (HC) expand the residual stream of Transformers into N parallel streams, providing a form of memory scaling beyond model width and depth. Manifold-Constrained HC (mHC) stabilizes this formulation at scale. The large gains from N{=}1 to N{=}4 suggest residual-stream expansion as a promising scaling axis. However, existing HC-family methods typically stop at N{=}4. Our experiments reveal why: scaling mHC beyond this point yields diminishing performance gains and rapidly increasin",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-15T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Recursive Harness Self-Improvement",
+      "summary": "Under model--harness co-evolution, harnesses are not merely inference-time scaffolds but data-generating components whose execution traces can shape future foundation models. This motivates harness-in-the-loop learning: optimizing harnesses for both immediate agent performance and the quality of traces used for future model training. However, continually updating provider-built scaffolds is costly and labor-intensive. We therefore investigate whether optimizing user-constructed harnesses in a ta",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-16T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "AI Agent",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Cura 1T: Specialized Model for Agentic Healthcare",
+      "summary": "Healthcare spans high-stakes communication, expert reasoning, and workflow execution, yet specialized LLMs that cover these use cases together remain limited. A healthcare model must handle patient consultation, clinical reasoning over text and images, interactive diagnosis, and electronic health record (EHR) tool use. These capabilities fail in different ways, and a narrow update for one task can degrade another. We present Cura 1T, a healthcare-specialized LLM trained through a human-gated sel",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-14T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Loop the Loopies!",
+      "summary": "We present Loopie, the most powerful looped Transformer to date. The Loopie series consists of two Mixture-of-Experts (MoE) models: a 20B-parameter model with 2B active parameters and a 6Bparameter model with 0.6B active parameters. Looped Transformers have long faced a challenge: given an N-fold increase in pre-training compute, increasing the parameter count by a factor of N usually outperforms looping a model N times. Loopie addresses this challenge. Extensive ablation studies, including comp",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-16T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos",
+      "summary": "We present Audio-Visual Flamingo (AV-Flamingo), a fully open state-of-the-art audio-visual large language model (AV-LLM) for joint understanding and reasoning over audio, images, and long-form videos. Unlike prior AV-LLMs that primarily focus on short clips, AV-Flamingo is designed for understanding and reasoning over long and complex real-world (audio-visual) videos. To support this, we make three key contributions: (i) Audio-Visual-Skills, a large-scale collection of real-world videos with ~7M",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-16T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "From Human-Centric to Agentic Code Review: The Impact of Different Generations of Generative AI Technology on Review Quality",
+      "summary": "Code review helps maintain software quality before code integration, but it also imposes a substantial workload on human reviewers. As generative artificial intelligence becomes part of software development, code review is shifting from a primarily human review process toward AI-supported review processes in which large language model (LLM) reviewers and AI agent reviewers participate alongside human reviewers. However, we still lack empirical evidence on how this transition affects review effic",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-13T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "RecGPT-V3 Technical Report",
+      "summary": "Large language models (LLMs) are transforming recommender systems from matching co-occurrence patterns in historical behavior toward reasoning about the intent that drives it. RecGPT-V1 pioneered this paradigm on Taobao by centering user understanding, and RecGPT-V2 scaled it via coordinated multi-agent reasoning; both are deployed in production with consistent gains in user experience and commercial outcomes. However, operating RecGPT at scale reveals three challenges: (1) stateless behavior mo",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-16T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Understanding Reasoning from Pretraining to Post-Training",
+      "summary": "Reinforcement learning (RL) has become central to improving large language models (LLMs) on complex reasoning tasks, yet RL post-training is largely studied in isolation from the pretraining that precedes it. As a result, two basic questions remain open: (1) how do pretraining choices (model size, data) shape the returns to RL compute, and (2) what does RL actually do to the model? These questions are difficult to study in the standard LLM setting: pretraining corpora are vast and uncontrolled, ",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-16T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
     },
     {
       "id": "",
@@ -672,174 +840,6 @@
       "score": 0,
       "source": "Hugging Face Daily Papers",
       "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Self-Improvements in Modern Agentic Systems: A Survey",
-      "summary": "Self-improving autonomous agents are moving from research prototypes to deployed systems. The primary goal is controllable evolution, or adaptation, from experience with minimal or even no human input. This survey frames modern self-improving agents as adaptive systems that convert experience into accumulated capability gains. We offer a system-level framework that represents a modern agent as a configuration coupling a foundation model with an operational scaffold of prompts, memory, tools, and",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-13T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "AI Agent",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Registers Matter for Pixel-Space Diffusion Transformers",
-      "summary": "Vision Transformers (ViTs) are known to exhibit high-norm patch-token outliers that degrade feature map quality, a problem effectively mitigated by register tokens. As diffusion models increasingly adopt transformer architectures and move toward pixel-space training, they become closer in form to ViTs, raising the question of whether register tokens are also useful for Diffusion Transformers (DiTs). In this work, we show that DiTs differ from ViTs in a key respect: they do not exhibit patch-toke",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-05T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "PalmClaw: A Native On-Device Agent Framework for Mobile Phones",
-      "summary": "Large Language Model (LLM) agents have moved beyond generating responses to executing multi-step tasks by calling tools, observing the results, and iteratively deciding the next action. Most agent systems run on desktops or servers, which support tool use and task automation. Mobile devices are also important agent environments because they are widely accessible and contain users' data, sensors, and daily-use applications. Existing mobile agents mainly operate smartphones through graphical user ",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-13T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "AgentCompass: A Unified Evaluation Infrastructure for Agent Capabilities",
-      "summary": "As Large Language Models (LLMs) evolve into autonomous agents, the need for unified evaluation infrastructure becomes critical. However, current evaluation pipelines remain highly fragmented and tightly coupled, hindering reproducibility and causing redundant engineering. To address this, we introduce AgentCompass, an open-source, lightweight, and extensible infrastructure for evaluating LLM-based agents. AgentCompass organizes the evaluation process around three independent components, namely B",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-14T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Boogu-Image-0.1: Boosting Open-Source Unified Multimodal Understanding and Generation",
-      "summary": "We introduce Boogu-Image-0.1, an open-source unified multimodal understanding and generation model family, comprising Base, Turbo, Edit, and Edit-Turbo variants. It delivers competitive performance in high-quality text-to-image generation, fast inference, instruction-based editing, and bilingual (Chinese-English) text rendering. Closed-source multimodal systems like Nano-Banana-Pro and GPT-Image-2 achieve strong performance through system-level integration rather than a single model, yet their i",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-13T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Hallo4D: Multi-Modal Hallucination Mitigation for Consistent Spatio-Temporal Generation",
-      "summary": "While recent advances in 3D generation have enabled impressive visual synthesis, existing methods often rely on 2D diffusion supervision without explicit mechanisms for geometric consistency, leading to spatial hallucinations such as duplicated structures and misaligned geometry. These issues become more severe in 4D generation, where maintaining consistency across viewpoints and temporal evolution introduces additional challenges, including jitter, identity flicker, and structural drift. We pre",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-14T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Vinci2: Providing Proactive Assistance in Continuous Egocentric Videos",
-      "summary": "When should an intelligent assistant speak up without being asked? Continuous egocentric video offers rich, evolving context that enables a new form of assistance: one that is proactive rather than merely reactive. Yet existing approaches either wait passively for user queries or treat every detected event as requiring a response, without considering the user's history, current activity, or whether assistance would actually be welcome. We reframe proactive assistance as a context-dependent decis",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-12T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "AI Agent",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "From Noisy Traces to Root Causes: Structural Trajectory Analysis and Causal Extraction for Agent Optimization",
-      "summary": "The optimization of long-horizon agents increasingly relies on reflection-based mechanisms, where a large language model (LLM) acts as an optimizer to diagnose agent failures and improve agent policies. However, real execution traces are difficult to use directly for optimization: large trace collections are often redundant and heterogeneous, making optimization inefficient and prone to overfitting to low-value failures; meanwhile, each individual trajectory also contains many irrelevant steps, ",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-07T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Tracing Agentic Failure from the Flow of Success",
-      "summary": "Failure attribution for LLM-based agentic systems, i.e., identifying which steps in a failure trajectory caused the task to fail, is critical for debugging and improving these systems. Existing approaches either rely on prompting-based pipelines, which are computationally expensive, or require post-training on failure trajectories with step-level error annotations, which are costly to collect and difficult to scale. We argue that a practical failure attribution model should be lightweight and tr",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-13T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "MetaView: Monocular Novel View Synthesis with Scale-Aware Implicit Geometry Priors",
-      "summary": "Current visual generation models are capable of producing high-quality content, yet they lack a coherent perception of the spatial structure. Existing generative novel view synthesis methods typically introduce explicit geometry priors, which enforce spatial consistency but inherently restrict generalization in large view changes. In contrast, recent interactive generative methods favor implicit scene modeling, offering greater flexibility at the cost of precise camera control and geometry consi",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-12T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "多模态 AI",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "GigaWorld-Policy-0.5: A Faster and Stronger WAM Empowered by AutoResearch",
-      "summary": "World Action Models (WAMs) improve robot policy learning by jointly modeling actions and future visual observations, using future scene evolution as dense supervision for physically grounded action generation. However, a common design in existing WAMs is to explicitly generate future videos at inference time, incurring substantial computational overhead and hindering real-time closed-loop deployment. GigaWorld-Policy addresses this issue with an action-centered formulation, where future visual d",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-14T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "PolicyShiftGuard: Benchmarking and Improving Policy-Adaptive Image Guardrails",
-      "summary": "Image guardrails are typically trained and evaluated under a fixed safety policy, implicitly treating safety as an intrinsic property of an image. Real deployments are different: the same image may be allowed in one product, restricted in another, and newly disallowed when a policy boundary changes. We study policy-adaptive image guardrailing, where a model must decide whether an image violates the currently supplied policy and generalize to held-out policy definitions. We introduce PolicyShiftB",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-06T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "多模态 AI",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "ShortOPD: Recovering Pruned LLMs with Short-to-Long On-Policy Distillation",
-      "summary": "Structured pruning is a hardware-friendly way to compress LLMs, but it is mostly validated on multiple-choice recognition tasks, while the same compressed checkpoints can collapse on the free-form generation that deployment actually requires. Two observations trace this gap. First, greedy pass@1 nearly vanishes after compression, yet pass@k recovers substantially under repeated sampling: useful generations are demoted, not erased. Second, the recoverable regime fails mainly through suffix repeti",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-13T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Ring-Zero: Scaling Zero RL to a Trillion Parameters for Emergent Reasoning",
-      "summary": "Reinforcement learning with verifiable rewards without human-annotated data, often referred to as zero RL, has emerged as a powerful paradigm for eliciting chain-of-thought reasoning. However, due to computational constraints, existing studies are largely restricted to small models, leaving the training dynamics and emergent capabilities at a large scale unexplored. To meaningfully explore this frontier, we aim to elicit high-quality reasoning behaviors from the model. However, we find that naiv",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-13T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "强化学习",
       "type": "paper"
     }
   ]
