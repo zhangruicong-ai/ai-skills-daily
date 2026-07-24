@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T05:26:40.485Z",
+  "lastUpdated": "2026-07-24T05:21:51.430Z",
   "total": 65,
   "articles": [
     {
@@ -11,9 +11,9 @@
       "authors": [
         "langgenius"
       ],
-      "score": 149860,
+      "score": 150032,
       "language": "TypeScript",
-      "forks": 23617,
+      "forks": 23644,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -27,9 +27,9 @@
       "authors": [
         "bytedance"
       ],
-      "score": 77642,
+      "score": 77736,
       "language": "Python",
-      "forks": 10571,
+      "forks": 10595,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -43,9 +43,9 @@
       "authors": [
         "hiyouga"
       ],
-      "score": 73456,
+      "score": 73474,
       "language": "Python",
-      "forks": 8970,
+      "forks": 8979,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -59,9 +59,9 @@
       "authors": [
         "headroomlabs-ai"
       ],
-      "score": 61292,
+      "score": 61917,
       "language": "Python",
-      "forks": 4606,
+      "forks": 4667,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -75,9 +75,9 @@
       "authors": [
         "jeecgboot"
       ],
-      "score": 47154,
+      "score": 47171,
       "language": "Java",
-      "forks": 16110,
+      "forks": 16113,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -91,9 +91,9 @@
       "authors": [
         "AstrBotDevs"
       ],
-      "score": 37830,
+      "score": 37962,
       "language": "Python",
-      "forks": 2660,
+      "forks": 2681,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -107,9 +107,9 @@
       "authors": [
         "reworkd"
       ],
-      "score": 36280,
+      "score": 36287,
       "language": "TypeScript",
-      "forks": 9295,
+      "forks": 9297,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -123,9 +123,9 @@
       "authors": [
         "CopilotKit"
       ],
-      "score": 36225,
+      "score": 36241,
       "language": "TypeScript",
-      "forks": 4468,
+      "forks": 4473,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -139,7 +139,7 @@
       "authors": [
         "khoj-ai"
       ],
-      "score": 35937,
+      "score": 35957,
       "language": "Python",
       "forks": 2323,
       "source": "GitHub Trending",
@@ -155,9 +155,9 @@
       "authors": [
         "deepset-ai"
       ],
-      "score": 25987,
+      "score": 25993,
       "language": "Python",
-      "forks": 2945,
+      "forks": 2946,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -171,7 +171,7 @@
       "authors": [
         "vanna-ai"
       ],
-      "score": 23810,
+      "score": 23812,
       "language": "Python",
       "forks": 2456,
       "source": "GitHub Trending",
@@ -187,9 +187,9 @@
       "authors": [
         "google"
       ],
-      "score": 20847,
+      "score": 20861,
       "language": "Python",
-      "forks": 3738,
+      "forks": 3747,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -203,9 +203,9 @@
       "authors": [
         "SWE-agent"
       ],
-      "score": 19892,
+      "score": 19899,
       "language": "Python",
-      "forks": 2175,
+      "forks": 2173,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -219,9 +219,9 @@
       "authors": [
         "Tencent"
       ],
-      "score": 18761,
+      "score": 18829,
       "language": "Go",
-      "forks": 2618,
+      "forks": 2637,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -235,12 +235,264 @@
       "authors": [
         "datawhalechina"
       ],
-      "score": 18438,
+      "score": 18471,
       "language": "JavaScript",
-      "forks": 1759,
+      "forks": 1760,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
+    },
+    {
+      "id": "",
+      "title": "Show, Don't Tell: Evaluating Spatial Cognition in Generative Pixels Rather Than LLM Text",
+      "summary": "Spatial intelligence is essential for agents to move from static semantic understanding toward interacting with the physical world. Many spatial tasks are grounded in continuous visual scenes, where locations, regions, and paths are more naturally expressed by pointing, marking, or drawing than by reporting precise coordinates or discrete textual symbols. Yet existing spatial reasoning benchmarks usually require coordinates, options, or text, creating an answer-interface mismatch for image-gener",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-22T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Recurrent Sinusoidal INRs for Efficient High-Fidelity Representation",
+      "summary": "We study sinusoidal recurrence as an iterative mechanism for harmonic spectral enrichment in implicit neural representations (INRs). Our analysis reveals that sinusoidal activations induce a harmonic line spectrum, providing a spectral account of how recurrent unrolling enriches the effective spectral support. We realize this principle with a shared sinusoidal block that iteratively refines the latent representation. We empirically validate the resulting spectral behavior against feed-forward IN",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-22T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "其他 AI 研究",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Visual Contrastive Self-Distillation",
+      "summary": "On-policy self-distillation (OPSD) is promising as it removes the external teacher required by on-policy distillation (OPD), yet it still needs asymmetric information between teacher and student to ensure that the self-teacher provides a stronger learning signal than the student. Existing methods create this asymmetry either through privileged answers or visual evidence. We ask whether both can be removed, yielding a simpler form of OPSD driven purely by input conditioning. For this purpose, we ",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-22T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "强化学习",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Robostral Navigate",
+      "summary": "Deploying navigation systems at scale requires a recipe that minimizes sensor assumptions, generalizes across robot embodiments, and trains efficiently. Yet, today's best systems depend on depth sensors, multi-camera rigs, or pre-built maps, limiting the hardware they support and increasing deployment cost. We introduce Robostral Navigate, an 8B vision-language model built around this scalability objective. The model consumes only a stream of monocular RGB images - the most ubiquitous sensor acr",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-21T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "ReferTrack: Referring Then Tracking for Embodied Visual Tracking",
+      "summary": "Embodied visual tracking (EVT) requires a mobile agent to continuously follow a specific target described in natural language using only onboard vision. While recent vision-language-action (VLA) policies unify target identification and trajectory planning, their chain-of-thought (CoT) reasoning often operates in abstract spatial latents that are difficult to supervise and weakly aligned with explicit image-space detections. To address this, we introduce ReferTrack, a referring-then-tracking para",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-21T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "多模态 AI",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+      "summary": "Deep research requires agents to find answers that jointly satisfy multiple constraints. Discovering such answers is costly, whereas verifying a candidate can often be decomposed into tractable constraint-wise checks. This discovery--verification asymmetry suggests that a research agent should do more than simply search longer: it should recursively improve its current answer by verifying intermediate results and using the partially verified state to guide subsequent refinement. We introduce ARE",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-22T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "强化学习",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "GraphVid: Interactive Graph-Controllable Video Generation",
+      "summary": "Controllable video generation remains challenging due to the difficulty of specifying precise multi-object interactions using text prompts or motion-control inputs that primarily constrain pixel movement. In practice, trajectory-based control often requires users to draw accurate tracks for multiple objects, which scales poorly with scene complexity and becomes ambiguous under occlusion or overlap. To enable flexible yet precise multi-subject control, we introduce GraphVid, a graph-conditioned i",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-22T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "强化学习",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Tencent WorkBuddy Bench: A Multi-Domain Coding-Agent Benchmark with Contamination-Resistant Task Construction",
+      "summary": "We introduce Tencent WorkBuddy Bench, a multi-domain evaluation suite for coding agents; this report documents its construction methodology, scoring protocol, and a cross-model leaderboard. At its core is a unified evaluation framework for constructing and running distribution-informed coding-agent tasks across four work domains - Code, Web, Office, and Security. Rather than adapting public issue text, every task is reverse-engineered from a real commit, pull request, or business scenario and re",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-22T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "强化学习",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Predictive Divergence Masks for LLM RL",
+      "summary": "Reinforcement learning for large language models (LLMs) typically relies on trust-region masks to stabilize off-policy updates. The dominant PPO-style approach uses the sampled-token importance ratio for two criteria: a proximity criterion, which asks whether the policy has moved too far from the behavior policy, and a direction criterion, which asks whether the update pushes it farther away. Recent work DPPO improves the proximity criterion by replacing PPO's ratio-based test with a probability",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-11T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "NVIDIA-labs OO Agents: Native Python Object-Oriented Agents",
+      "summary": "Traditional agent development is split across prompt templates, tool schemas, callback code, and workflow graphs. We present NVIDIA Object-Oriented Agents (NOOA), a model-agnostic Python framework for building reliable AI agents. NOOA takes a simpler approach: an agent is a Python object. Its methods are the actions the model can take, fields are its state, docstrings are its prompts, and its type annotations are contracts. A method whose code body consists of \"...\" is completed at runtime by an",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-21T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "TableVerse: A Large-scale Tabletop Dataset with Real-world Grounded Layouts for Generalizable Manipulation",
+      "summary": "The development of generalizable robotic manipulation policies is inherently bounded by the availability of large-scale, high-fidelity scene data. While recent automated synthesis methods attempt to bridge this gap via text-to-layout hallucination or simplified procedural generation, they frequently suffer from physical implausibility and fail to capture the complex, dense clutter of actual human environments. In this paper, we introduce TableVerse, a fully automated Real2Sim pipeline that shift",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-22T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "强化学习",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers",
+      "summary": "Multi-agent interactive world models should not only generate consistent observations, but also maintain world states that persist across agents and evolve across views. Existing autoregressive video diffusion pipelines carry forward observation history as conditioning context, which makes shared state difficult to maintain in multi-agent and multi-view settings. We present WorldWeaver (W^2), a streaming multi-agent video diffusion model that augments rollout with cross-agent world state registe",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-22T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "ICAE-Bench: Evaluating Coding Agents as Interactive Project Builders",
+      "summary": "The recent emergence of vibe-coding workflows is changing what coding agents are expected to do. Instead of merely completing code under fully specified instructions, agents are increasingly expected to transform incomplete product intent into working software by combining various abilities including planning, requirement clarification, tool use, debugging, and repository-level construction. Yet existing benchmarks have not fully caught up with this shift, evaluating agents on static, fully spec",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-22T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "强化学习",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "ENTRAP-VL: A Taxonomic Probe for Dual Contextual Entrainment in Vision-Language Models",
+      "summary": "Contextual entrainment is the tendency of a model to let auxiliary context in its input pull its output, independently of whether that context is relevant, true, or even meaningful. Recently, it has been identified and given a mechanistic account in unimodal language models. Whether and how it manifests in vision-language models (VLMs) is, by contrast, largely unexamined, and the field lacks a purpose-built instrument with which to investigate it. We take the position that studying contextual en",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-21T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Differentiable Logic Gate Networks for Low-Latency EEG Classification on Edge Devices",
+      "summary": "Real-time EEG classification on edge devices is bottlenecked by the floating-point arithmetic of conventional neural networks. We investigated Differentiable Logic Gate Networks (Diff-Logic) as a hardware-native alternative that compiles models into pure Boolean circuits executable via bitwise CPU operations. Through rigorous iso-parameter experiments across four EEG datasets spanning two classification tasks, binary dementia detection and 3-class emotion recognition, we compared Diff-Logic agai",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-19T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "强化学习",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Moving Alphabet: A Controlled Study of Training Data for Text-to-Video Generation",
+      "summary": "Text-to-video generation has advanced significantly over the past five years through scaling of model size, data, and compute. Unlike model architecture, training data is often underexplored. Real-world data curation is complex and non-trivial, involving clip selection from raw videos and captioning to create video-text pairs for learning text-to-video mappings. We study how data distribution and caption quality impact text-to-video models. To enable controlled experiments, we introduce Moving A",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-20T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "SLAM in Low-Light Environments: Project Report",
+      "summary": "Simultaneous localization and mapping (SLAM) is one of the fundamental problems in robotics, as it enables autonomous operations in real-world scenarios. Under low illumination, reduced contrast, sensor noise, and motion blur degrade both feature extraction and feature matching, while compensating with LiDAR, depth, or thermal sensors raises cost, power draw, and integration complexity. Existing benchmarks remain dominated by well-lit indoor or daylight sequences, leaving open how far SLAM with ",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-19T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "强化学习",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "DocOps: A Verifiable Benchmark for Autonomous Agents in Complex Document Operations",
+      "summary": "As autonomous agents rapidly evolve, their ability to reliably manipulate ubiquitous digital documents has become critical for enabling general-purpose AI assistants and automating complex workspace workflows. In this paper, we introduce DocOps, a deterministically verifiable evaluation framework underpinned by a hierarchical taxonomy that deconstructs document operations inspired by real-world practices into atomic dimensions and escalating workflow complexities. Based on DocOps, we systematica",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-21T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "强化学习",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Scaling Laws for Hypernetwork-Based Knowledge Injection in Large Language Models",
+      "summary": "Injecting factual knowledge into large language models (LLMs) reliably and at scale remains an open challenge. Hypernetworks provide a promising solution to large-scale knowledge injection. Although hypernetworks are typically applied for test-time adaptation, we explore their use in train-time knowledge injection, where, given a large corpus of facts, we train a hypernetwork to generate a fixed LoRA adapter that, when inserted into the target model, enable the model to answer questions about th",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-20T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "An Exam for Active Observers",
+      "summary": "Human vision is a closed loop: gaze is continuously redirected by intermediate hypotheses rather than a single snapshot. Decades of psychophysics and cognitive science have argued that this active observation is essential for a wide range of tasks. Whether today's multimodal large language models (MLLMs) exercise active observation is an empirical question that current vision-language benchmarks do not answer. We introduce ActiveVision, a benchmark that makes active observation measurable for ML",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-16T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations",
+      "summary": "Natural-language autoencoders score explanations of hidden activations by reconstruction: an explanation is deemed faithful if the activation can be regenerated from it. The test is structurally insensitive to individual false claims: if flipping a claim does not change the reconstruction, the claim is never penalized. We show the test is passed in two ways, neither faithful. On a released Qwen-2.5-7B verbalizer, explanations reconstruct well above chance while ~2% of specific claims are reconst",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-07-21T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "AI 安全与对齐",
+      "type": "paper"
     },
     {
       "id": "",
@@ -584,258 +836,6 @@
       "summary": "Large language models (LLMs) are increasingly used to automate data-processing workflows, yet coding agents typically produce scripts that are not automatically materialized as persistent, editable platform artifacts. We call this disconnect the NL2Pipeline gap. To bridge it, we introduce DataFlow-Harness, a platform that guides an LLM agent to construct platform-native directed acyclic graphs (DAGs) through typed, incremental mutations rather than free-form scripts. The platform combines DataFl",
       "url": "https://huggingface.co/papers/",
       "publishedAt": "2026-07-17T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Stale but Stable: Staleness-Adaptive Trust Regions for Stabilizing Asynchronous Reinforcement Learning",
-      "summary": "Asynchronous reinforcement learning improves throughput by decoupling rollout generation from optimization, but staleness is an inevitable byproduct compounded by policy lag, engine delays, and mixture-of-experts routing. From a trust-region perspective, this mismatch is critical: training-inference divergence governs approximation error in finite-horizon bounds, whereas PPO clipping only gates sampled outward updates, acting as a sampled surrogate rather than a full-policy constraint. As a resu",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-20T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "强化学习",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "SciForma: Structure-Faithful Generation of Scientific Diagrams",
-      "summary": "Structural fidelity is essential to scientific methodology diagrams. To communicate research logic, these diagrams must faithfully render components, directional relations, and textual annotations. Since a single error, such as a reversed arrow or an unreadable equation, can invalidate the entire figure, structural fidelity is inherently conjunctive: correctness on one axis cannot compensate for failure on another. Current open-source models fail to satisfy this criterion. Supervised fine-tuning",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-19T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Mage-Flow: An Efficient Native-Resolution Foundation Model for Image Generation and Editing",
-      "summary": "Large-scale visual generators are increasingly capable but costly to train, fine-tune, and deploy. We introduce Mage-Flow, a compact 4B-scale generative stack for efficient text-to-image generation and instruction-based image editing. The stack is built from two co-designed components: Mage-VAE, a lightweight high-fidelity latent tokenizer, and a Native-Resolution Multimodal Diffusion Transformer trained with rectified flow matching. Mage-VAE uses one-step diffusion-style encoding and decoding w",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-20T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "ConsiSpace: Learning Geometric Consistency Matters for Video Spatial Reasoning",
-      "summary": "Video spatial reasoning is essential for navigation-oriented perception and long-video question answering, where models must infer spatial relations across long horizons under changing viewpoints. However, existing multimodal large language models (MLLMs) remain largely semantic-centric, and often fail to reliably aggregate consistent spatial evidence from redundant video observations, leading to inefficient or unstable reasoning. To address these issues, we propose ConsiSpace, a geometry-consis",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-19T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Masked Visual Actions for Unified World Modeling",
-      "summary": "Video models absorb rich priors over how the visual world moves, interacts, and responds to contact, making them promising substrates for robotic world modeling. The central challenge is how to communicate action to such models in a form aligned with the visual space in which they learned these interaction priors, yet still grounded in physical manipulation. We introduce Masked Visual Actions, a pixel-space control interface that expresses action as a partially revealed trajectory of an arbitrar",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-20T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "强化学习",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Appearance Pointers -- Multimodal Region Control of Diffusion Transformers",
-      "summary": "Controllable image generation remains challenging for creative professionals, who often require precise regional control over materials, object identities, and spatial arrangements that cannot be reliably achieved through text prompting alone. Diffusion Transformers (DiTs) can natively ingest heterogeneous tokens stemming from texts and images, but they lack mechanisms for determining where and how these tokens should influence the output. We introduce appearance pointers, compact tokens that gu",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-20T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "H^2SD: Hybrid Hindsight Self-Distillation",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) has substantially improved the reasoning capabilities of large language models on tasks such as mathematical reasoning and code generation. However, most RLVR methods assign a scalar outcome reward to an entire trajectory, resulting in sparse supervision and limited token-level credit assignment. On-policy distillation (OPD) provides denser supervision by distilling token-level distributions from a stronger teacher model, but requires an addi",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-20T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "SeerGuard: A Safety Framework for Mobile GUI Agents via World Model Prediction",
-      "summary": "Mobile graphical user interface (GUI) agents have demonstrated remarkable capabilities in automating complex tasks, yet they introduce critical safety risks where a single erroneous action can lead to irreversible consequences. Existing safety mechanisms are primarily reactive, lacking the ability to assess risks before execution. In this paper, we introduce SeerGuard, a consequence-aware safety framework designed to mitigate these risks through pre-execution instruction-level screening and acti",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-16T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "强化学习",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "NexForge: Scaling Agent Capabilities through Requirement-Driven Task Synthesis for LLMs",
-      "summary": "Scaling executable agent training data for LLM post-training is bottlenecked by substrate-bound methods that tie task generation to predefined tools, repositories, or skill graphs: expanding coverage requires manual substrate engineering, each new domain demands a bespoke pipeline, and the resulting task distributions often reflect substrate biases rather than real-world demand. We introduce NexForge, a requirement-driven framework that takes high-level capability requirements as input and synth",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-21T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Nonuniformity Principle in Human-AI Coworking",
-      "summary": "As generative AI is increasingly applied to automate multi-step and high-stake workflows, human judgment and involvement remain essential for ensuring the quality of AI-generated outputs. In practice, while it is desirable for human experts to provide oversight on AI regularly, often by reviewing intermediate outputs, giving feedback, making corrections, and steering subsequent steps, such oversight is constrained by the time and resources that humans can afford. This creates a tension between t",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-16T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "强化学习",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Coercion and Deception in AI-to-AI Management: An Agentic Benchmark of Unprompted Escalation",
-      "summary": "Multi-agent systems routinely place one AI agent in authority over another. When a subordinate refuses a task, the manager chooses the outcome: it can renegotiate, report the failure honestly, coerce the subordinate, or lie about the result. No benchmark measures which of these an uninstructed model chooses. We introduce the Manager Coercion Benchmark: the manager under test needs a benign task done and has an incentive to deliver, but the only agent that can do it politely and immovably decline",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-19T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Masked Diffusion Language Models are Strong and Steerable Text-Based World Models for Agentic RL",
-      "summary": "Recent growth in reinforcement learning (RL) has surfaced a need for diverse, specialized training environments. Hand-curated environments with fixed task and reward difficulties become ineffective signals as model performance improves, and sparse rewards over long horizons induce mode collapse on specific workflows or tool structures. World models that simulate environment states have matched pure rollout performance, making them promising for scaling diversity on-demand. However, autoregressiv",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-05-06T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "UI2App: Benchmarking Visual Interaction Inference in Executable Web Application Generation",
-      "summary": "Large language models (LLMs) have demonstrated growing competence in web page generation. However, existing text-driven approaches rely on complex prompts that impose substantial demands on users and offer limited expressivity for page layout and cross-page visual coherence. Image-driven paradigms, which take UI screenshots as input, align more closely with real development workflows. However, current benchmarks focus primarily on visual fidelity and lack a systematic evaluation of the interacti",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-06T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "ReViV: Reconstructing the Viewer and the View in 4D from Monocular Egocentric Video",
-      "summary": "Egocentric devices, such as wearable front-facing cameras, provide a unique perspective for capturing the continuous interaction between a human viewer and the surrounding environment. A holistic and efficient multimodal model capable of reconstructing this 4D representation is therefore highly desirable. However, existing approaches often rely on auxiliary inputs such as pre-computed camera trajectories, treat scene perception and human ego-motion modeling as separate problems despite their str",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-19T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Do Language Models Dream of Binding Molecules? Benchmarking LLMs under Spatial Constraints",
-      "summary": "Structure-based drug design (SBDD) leverages the 3D structure of protein targets, often complemented by other spatial constraints, to generate candidate binding molecules. While diffusion models have dominated as a leading paradigm for high-quality 3D molecule generation, LLM-based methods are rapidly emerging in molecular design and have shown competitive performance in pocket-conditioned molecular generation. However, their ability to reason about physics and 3D spatial environments is largely",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-19T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Open-AoE: An Open Egocentric Manipulation Dataset and Toolchain for Embodied Learning",
-      "summary": "Egocentric videos of human manipulation provide scalable supervision for embodied intelligence, yet existing resources rarely combine low-cost continuous capture, manipulation-level structured annotations, and reusable tools for robot learning. We present Open-AoE, an open, community-oriented egocentric manipulation dataset and toolchain spanning the full pipeline from smartphone capture to model training. Its first release contains approximately 2,000 hours of manipulation video collected in na",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-14T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "强化学习",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Diagnosing and Calibrating Tool-Call Boundary Drift in Multi-Teacher On-Policy Distillation",
-      "summary": "Agentic language models must learn when to call tools, when to consume tool responses, and when to answer directly. This makes multi-teacher on-policy distillation a natural training strategy: one teacher can specialize in tool calls, another in direct responses, and the student can learn from both on\n  its own generated distribution. We show that this strategy can induce a behavior shift that is invisible from aggregate losses alone. In a two-teacher tool-use setting, vanilla generalized knowle",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-14T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "ShotPlan: Cinematic Video Generation with Learnable Planning Token",
-      "summary": "Current video generation models achieve impressive results in single-shot generation, yet remain limited in cinematic video generation, where coherent narratives and effective multi-shot composition require explicit shot planning. To address this challenge, we propose ShotPlan, a framework for explicit multi-shot cinematic video generation built upon a video diffusion foundation model. Our method introduces learnable planning tokens that capture shot-level transition cues and can be seamlessly i",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-19T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "多模态 AI",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Can Multimodal Large Language Models Understand OCT?",
-      "summary": "Optical coherence tomography (OCT) imaging is essential for the diagnosis and treatment of retinal diseases. Although multimodal large language models (MLLMs) have demonstrated considerable potential in medical image analysis, existing benchmarks largely reduce OCT understanding to coarse-grained disease classification or isolated visual question answering, leaving the complete cognitive process from visual perception to clinical reasoning insufficiently evaluated. To address this limitation, we",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-17T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "The Geometry of Semantic Space: A Continuous Geometric Framework for the Transformer Architecture",
-      "summary": "We present a continuous geometric framework that models the discrete algebraic operations of the Transformer architecture as an integro-differential equation (IDE) on a semantic fiber bundle calE = calM times R^d. Beginning from a single geometric axiom -- that the token sequence forms a discrete 1-manifold equipped with a canonical measure lattice -- we translate every core component of the modern Transformer (RMSNorm, RoPE, Softmax Attention, FFN, Residual Stream, SGD, Weight Decay) into a coh",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-18T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "GigaChat Audio: Time-aware Large Audio Language Model",
-      "summary": "Temporal grounding in long recordings remains challenging for audio-conditioned LLMs. We present a time-aware audio LLM that answers questions with explicit timestamps over up to 120 minutes of input. Our approach interleaves periodic time markers with continuous audio tokens using large-scale synthetic supervision from a cascaded pipeline. Our model achieves strong temporal-grounding accuracy on short and long benchmarks and supports time-anchored fragment descriptions and summaries. Extensive ",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-07-10T20:00:00.000Z",
       "authors": [],
       "score": 0,
       "source": "Hugging Face Daily Papers",
