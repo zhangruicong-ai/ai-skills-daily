@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T05:16:02.657Z",
+  "lastUpdated": "2026-07-26T05:33:47.157Z",
   "total": 65,
   "articles": [
     {
@@ -11,9 +11,9 @@
       "authors": [
         "langgenius"
       ],
-      "score": 150158,
+      "score": 150263,
       "language": "TypeScript",
-      "forks": 23665,
+      "forks": 23677,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -27,7 +27,7 @@
       "authors": [
         "bytedance"
       ],
-      "score": 77799,
+      "score": 77865,
       "language": "Python",
       "forks": 10615,
       "source": "GitHub Trending",
@@ -43,9 +43,9 @@
       "authors": [
         "hiyouga"
       ],
-      "score": 73502,
+      "score": 73516,
       "language": "Python",
-      "forks": 8983,
+      "forks": 8986,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -59,9 +59,9 @@
       "authors": [
         "headroomlabs-ai"
       ],
-      "score": 62247,
+      "score": 62446,
       "language": "Python",
-      "forks": 4695,
+      "forks": 4720,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -75,9 +75,9 @@
       "authors": [
         "jeecgboot"
       ],
-      "score": 47177,
+      "score": 47184,
       "language": "Java",
-      "forks": 16117,
+      "forks": 16116,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -91,9 +91,9 @@
       "authors": [
         "AstrBotDevs"
       ],
-      "score": 38023,
+      "score": 38092,
       "language": "Python",
-      "forks": 2689,
+      "forks": 2698,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -107,9 +107,9 @@
       "authors": [
         "reworkd"
       ],
-      "score": 36288,
+      "score": 36290,
       "language": "TypeScript",
-      "forks": 9299,
+      "forks": 9297,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -123,9 +123,9 @@
       "authors": [
         "CopilotKit"
       ],
-      "score": 36263,
+      "score": 36280,
       "language": "TypeScript",
-      "forks": 4474,
+      "forks": 4476,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -139,9 +139,9 @@
       "authors": [
         "khoj-ai"
       ],
-      "score": 35975,
+      "score": 35998,
       "language": "Python",
-      "forks": 2322,
+      "forks": 2323,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -155,9 +155,9 @@
       "authors": [
         "deepset-ai"
       ],
-      "score": 26006,
+      "score": 26015,
       "language": "Python",
-      "forks": 2948,
+      "forks": 2952,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -171,7 +171,7 @@
       "authors": [
         "vanna-ai"
       ],
-      "score": 23814,
+      "score": 23817,
       "language": "Python",
       "forks": 2457,
       "source": "GitHub Trending",
@@ -187,9 +187,9 @@
       "authors": [
         "google"
       ],
-      "score": 20870,
+      "score": 20879,
       "language": "Python",
-      "forks": 3754,
+      "forks": 3758,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -203,9 +203,9 @@
       "authors": [
         "SWE-agent"
       ],
-      "score": 19906,
+      "score": 19908,
       "language": "Python",
-      "forks": 2174,
+      "forks": 2172,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -219,9 +219,9 @@
       "authors": [
         "Tencent"
       ],
-      "score": 18876,
+      "score": 18907,
       "language": "Go",
-      "forks": 2641,
+      "forks": 2649,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -235,7 +235,7 @@
       "authors": [
         "datawhalechina"
       ],
-      "score": 18498,
+      "score": 18521,
       "language": "JavaScript",
       "forks": 1763,
       "source": "GitHub Trending",
