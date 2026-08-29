@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T13:54:34.075Z",
+  "lastUpdated": "2026-08-29T08:42:31.416Z",
   "total": 65,
   "articles": [
     {
@@ -11,9 +11,9 @@
       "authors": [
         "langgenius"
       ],
-      "score": 153753,
+      "score": 153799,
       "language": "TypeScript",
-      "forks": 24300,
+      "forks": 24307,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -27,9 +27,9 @@
       "authors": [
         "bytedance"
       ],
-      "score": 81052,
+      "score": 81071,
       "language": "Python",
-      "forks": 11162,
+      "forks": 11168,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -43,9 +43,9 @@
       "authors": [
         "unslothai"
       ],
-      "score": 75033,
+      "score": 75103,
       "language": "Python",
-      "forks": 6803,
+      "forks": 6813,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -59,9 +59,9 @@
       "authors": [
         "hiyouga"
       ],
-      "score": 74425,
+      "score": 74432,
       "language": "Python",
-      "forks": 9108,
+      "forks": 9112,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -75,9 +75,9 @@
       "authors": [
         "headroomlabs-ai"
       ],
-      "score": 67889,
+      "score": 67956,
       "language": "Python",
-      "forks": 5252,
+      "forks": 5256,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -91,9 +91,9 @@
       "authors": [
         "jeecgboot"
       ],
-      "score": 47520,
+      "score": 47531,
       "language": "Java",
-      "forks": 16171,
+      "forks": 16172,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -107,9 +107,9 @@
       "authors": [
         "AstrBotDevs"
       ],
-      "score": 39722,
+      "score": 39750,
       "language": "Python",
-      "forks": 2849,
+      "forks": 2847,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -123,7 +123,7 @@
       "authors": [
         "CopilotKit"
       ],
-      "score": 37088,
+      "score": 37096,
       "language": "TypeScript",
       "forks": 4586,
       "source": "GitHub Trending",
@@ -139,9 +139,9 @@
       "authors": [
         "khoj-ai"
       ],
-      "score": 36747,
+      "score": 36764,
       "language": "Python",
-      "forks": 2408,
+      "forks": 2411,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -157,7 +157,7 @@
       ],
       "score": 36302,
       "language": "TypeScript",
-      "forks": 9270,
+      "forks": 9269,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -171,7 +171,7 @@
       "authors": [
         "vanna-ai"
       ],
-      "score": 23814,
+      "score": 23815,
       "language": "Python",
       "forks": 2490,
       "source": "GitHub Trending",
@@ -187,9 +187,9 @@
       "authors": [
         "google"
       ],
-      "score": 21316,
+      "score": 21320,
       "language": "Python",
-      "forks": 3903,
+      "forks": 3907,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -203,9 +203,9 @@
       "authors": [
         "Tencent"
       ],
-      "score": 20843,
+      "score": 20882,
       "language": "Go",
-      "forks": 2997,
+      "forks": 3002,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -219,7 +219,7 @@
       "authors": [
         "SWE-agent"
       ],
-      "score": 20163,
+      "score": 20170,
       "language": "Python",
       "forks": 2210,
       "source": "GitHub Trending",
@@ -235,12 +235,60 @@
       "authors": [
         "datawhalechina"
       ],
-      "score": 19155,
+      "score": 19170,
       "language": "JavaScript",
-      "forks": 1832,
+      "forks": 1831,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
+    },
+    {
+      "id": "",
+      "title": "Luce: Relightable Gaussians for 3D Asset Generation",
+      "summary": "High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. To support relighting and integration into standard rendering pipelines, the representation should include physically based rendering (PBR) modalities such as albedo, metallic-roughness, and surface normals. We propose Luce, a 3D representation that unifies geometry and PBR materials within a voxelized multimodal Gaussian cloud, using dedicated Gaussian primitives for each modality. A va",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-08-24T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
+      "summary": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs). However, these methods typically rely on repeated generation or external verification. To address this limitation, we introduce CritICL, a novel inference-time framework that improves reasoning while maintaining high efficiency. Our key insight is that LLM failure modes exhibit structured patterns across model scales within the same family. Instead of treating failures",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-08-26T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "TacForcing: Streaming Action Generation with Execution-Time Tactile Feedback",
+      "summary": "Contact-rich manipulation requires adapting to contact states that can evolve substantially within an action horizon. However, chunk-based vision-language-action models predict complete action chunks from observations collected before execution, leaving tactile conditioning stale during execution. Existing tactile-reactive approaches typically rely on separate high-frequency controllers, which increase both architectural and training complexity. In this paper, we introduce TacForcing, a streamin",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-08-25T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "What Does an Evaluation License? A Commit-Bound Census of Claim-Relative Inference in Inspect Evals",
+      "summary": "Evaluation artifacts specify a forward computation: a task, scorer, and reported metric. They do not necessarily license the claim attached to that metric because the historical evidence and alternative semantics needed to replay it may be unbound. We formalize this missing claim-replay layer through a frozen substrate D, a grounded family F, a claim query q, and the resulting identified set. We then census all 124 mechanically eligible Inspect Evals units at a pinned commit. Every unit receives",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-08-24T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "其他 AI 研究",
+      "type": "paper"
     },
     {
       "id": "",
@@ -792,54 +840,6 @@
       "score": 0,
       "source": "Hugging Face Daily Papers",
       "category": "多模态 AI",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "D^3-MOPD: Adaptive Dynamic Domain ScheDuling for Efficient Multi-Teacher Distillation",
-      "summary": "Multi-teacher on-policy distillation (MOPD) distills several domain-expert teachers into a single student by minimizing per-domain reverse-KL divergence on the student's own rollouts. Existing approaches typically fix the per-domain data mixture before training, overlooking the fact that different domains converge at substantially different rates: some plateau early while others continue to improve throughout the training budget. A fixed mixture therefore wastes compute on fast-converging domain",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-08-24T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "强化学习",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "A Programming Paradigm for Spatiotemporal Composability",
-      "summary": "Modern software -- from plugin systems to self-evolving agent harnesses -- increasingly requires dynamic composition, yet its formal foundations remain underdeveloped. We identify two orthogonal dimensions of the problem: temporal composability, the ability to completely revert a component's side effects upon removal, and spatial composability, the ability to declare and reactively manage inter-component dependencies. We address the two dimensions by lifting classical effect and coeffect concept",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-08-25T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "强化学习",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "FrontierChallenge: Evaluating Scientific Workflow Completion",
-      "summary": "Scientific agents increasingly analyze data, execute code, and produce research artifacts, yet most benchmarks emphasize final answers, isolated programs, or a single domain. We introduce FrontierChallenge, a cross-domain benchmark comprising 300 end-to-end scientific workflows. In this paper, we release and evaluate 97 of these tasks, spanning quantum chemistry, molecular dynamics, materials characterization, analytical chemistry, life science, and electrochemistry/environment. Each task provid",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-08-24T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "强化学习",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Agent-G^2: Gaussian Guidance for Agentic Reinforcement Learning",
-      "summary": "Hint-based reinforcement learning addresses reward sparsity in long-horizon agentic tasks by retaining a prefix of an expert trajectory before each rollout, letting the policy explore from a state closer to success. Its effectiveness hinges on the guidance depth: how much of the trajectory to keep. Existing methods treat this depth as a deterministic scalar. Scheduled approaches share one value across samples and ignore per-task heterogeneity; per-sample probing estimates it separately at the co",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-08-23T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "强化学习",
       "type": "paper"
     }
   ]
