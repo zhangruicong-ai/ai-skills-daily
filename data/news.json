@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T06:45:01.794Z",
+  "lastUpdated": "2026-09-06T06:55:35.556Z",
   "total": 65,
   "articles": [
     {
@@ -11,9 +11,9 @@
       "authors": [
         "langgenius"
       ],
-      "score": 154478,
+      "score": 154564,
       "language": "TypeScript",
-      "forks": 24418,
+      "forks": 24422,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -27,9 +27,9 @@
       "authors": [
         "bytedance"
       ],
-      "score": 81376,
+      "score": 81442,
       "language": "Python",
-      "forks": 11225,
+      "forks": 11234,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -43,9 +43,9 @@
       "authors": [
         "unslothai"
       ],
-      "score": 75638,
+      "score": 75690,
       "language": "Python",
-      "forks": 6872,
+      "forks": 6882,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -59,9 +59,9 @@
       "authors": [
         "hiyouga"
       ],
-      "score": 74582,
+      "score": 74596,
       "language": "Python",
-      "forks": 9140,
+      "forks": 9141,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -75,9 +75,9 @@
       "authors": [
         "headroomlabs-ai"
       ],
-      "score": 68961,
+      "score": 69060,
       "language": "Python",
-      "forks": 5346,
+      "forks": 5357,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -91,9 +91,9 @@
       "authors": [
         "jeecgboot"
       ],
-      "score": 47631,
+      "score": 47643,
       "language": "Java",
-      "forks": 16182,
+      "forks": 16179,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -107,9 +107,9 @@
       "authors": [
         "AstrBotDevs"
       ],
-      "score": 40021,
+      "score": 40054,
       "language": "Python",
-      "forks": 2872,
+      "forks": 2875,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -123,7 +123,7 @@
       "authors": [
         "CopilotKit"
       ],
-      "score": 37207,
+      "score": 37214,
       "language": "TypeScript",
       "forks": 4606,
       "source": "GitHub Trending",
@@ -139,7 +139,7 @@
       "authors": [
         "khoj-ai"
       ],
-      "score": 37118,
+      "score": 37143,
       "language": "Python",
       "forks": 2459,
       "source": "GitHub Trending",
@@ -155,9 +155,9 @@
       "authors": [
         "reworkd"
       ],
-      "score": 36297,
+      "score": 36299,
       "language": "TypeScript",
-      "forks": 9264,
+      "forks": 9263,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -171,25 +171,9 @@
       "authors": [
         "vanna-ai"
       ],
-      "score": 23817,
+      "score": 23816,
       "language": "Python",
       "forks": 2500,
-      "source": "GitHub Trending",
-      "category": "AI 开源项目",
-      "type": "github"
-    },
-    {
-      "id": "958830659",
-      "title": "adk-python - An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
-      "summary": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
-      "url": "https://github.com/google/adk-python",
-      "publishedAt": "2025-04-01T20:44:40Z",
-      "authors": [
-        "google"
-      ],
-      "score": 21414,
-      "language": "Python",
-      "forks": 3950,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -203,9 +187,25 @@
       "authors": [
         "Tencent"
       ],
-      "score": 21373,
+      "score": 21469,
       "language": "Go",
-      "forks": 3092,
+      "forks": 3102,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "958830659",
+      "title": "adk-python - An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+      "summary": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+      "url": "https://github.com/google/adk-python",
+      "publishedAt": "2025-04-01T20:44:40Z",
+      "authors": [
+        "google"
+      ],
+      "score": 21421,
+      "language": "Python",
+      "forks": 3953,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -219,9 +219,9 @@
       "authors": [
         "SWE-agent"
       ],
-      "score": 20223,
+      "score": 20246,
       "language": "Python",
-      "forks": 2211,
+      "forks": 2215,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -235,9 +235,9 @@
       "authors": [
         "datawhalechina"
       ],
-      "score": 19270,
+      "score": 19287,
       "language": "JavaScript",
-      "forks": 1847,
+      "forks": 1848,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
