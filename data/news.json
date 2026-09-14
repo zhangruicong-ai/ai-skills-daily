@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T07:15:10.813Z",
+  "lastUpdated": "2026-09-14T07:39:01.584Z",
   "total": 65,
   "articles": [
     {
@@ -11,9 +11,9 @@
       "authors": [
         "langgenius"
       ],
-      "score": 155562,
+      "score": 155651,
       "language": "TypeScript",
-      "forks": 24573,
+      "forks": 24584,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -27,9 +27,9 @@
       "authors": [
         "bytedance"
       ],
-      "score": 82329,
+      "score": 82388,
       "language": "Python",
-      "forks": 11357,
+      "forks": 11363,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -43,9 +43,9 @@
       "authors": [
         "unslothai"
       ],
-      "score": 76082,
+      "score": 76134,
       "language": "Python",
-      "forks": 6932,
+      "forks": 6936,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -59,9 +59,9 @@
       "authors": [
         "hiyouga"
       ],
-      "score": 74732,
+      "score": 74755,
       "language": "Python",
-      "forks": 9147,
+      "forks": 9152,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -75,9 +75,9 @@
       "authors": [
         "headroomlabs-ai"
       ],
-      "score": 71790,
+      "score": 71975,
       "language": "Python",
-      "forks": 5500,
+      "forks": 5515,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -91,9 +91,9 @@
       "authors": [
         "jeecgboot"
       ],
-      "score": 47771,
+      "score": 47794,
       "language": "Java",
-      "forks": 16179,
+      "forks": 16180,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -107,9 +107,9 @@
       "authors": [
         "AstrBotDevs"
       ],
-      "score": 40414,
+      "score": 40460,
       "language": "Python",
-      "forks": 2914,
+      "forks": 2917,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -123,9 +123,9 @@
       "authors": [
         "CopilotKit"
       ],
-      "score": 37335,
+      "score": 37340,
       "language": "TypeScript",
-      "forks": 4625,
+      "forks": 4628,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -139,9 +139,9 @@
       "authors": [
         "khoj-ai"
       ],
-      "score": 37294,
+      "score": 37321,
       "language": "Python",
-      "forks": 2475,
+      "forks": 2479,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -155,7 +155,7 @@
       "authors": [
         "reworkd"
       ],
-      "score": 36297,
+      "score": 36299,
       "language": "TypeScript",
       "forks": 9254,
       "source": "GitHub Trending",
@@ -171,9 +171,9 @@
       "authors": [
         "vanna-ai"
       ],
-      "score": 23815,
+      "score": 23813,
       "language": "Python",
-      "forks": 2504,
+      "forks": 2505,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -187,9 +187,9 @@
       "authors": [
         "Tencent"
       ],
-      "score": 22725,
+      "score": 23003,
       "language": "Go",
-      "forks": 3257,
+      "forks": 3279,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -203,9 +203,9 @@
       "authors": [
         "google"
       ],
-      "score": 21518,
+      "score": 21528,
       "language": "Python",
-      "forks": 4002,
+      "forks": 4008,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -219,9 +219,9 @@
       "authors": [
         "SWE-agent"
       ],
-      "score": 20311,
+      "score": 20318,
       "language": "Python",
-      "forks": 2218,
+      "forks": 2217,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -235,12 +235,108 @@
       "authors": [
         "datawhalechina"
       ],
-      "score": 19386,
+      "score": 19400,
       "language": "JavaScript",
       "forks": 1859,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
+    },
+    {
+      "id": "",
+      "title": "StepAudio 3 Gen Technical Report",
+      "summary": "We introduce StepAudio 3 Gen, a general-purpose audio generation model that supports zero-shot text-to-speech (TTS), voice design, vocal generation, sound effects, music, vibe speech, and mixtures of multiple audio types within a unified framework. At its core, StepAudio 3 Gen is a discrete autoregressive generator that models audio directly over residual vector quantization (RVQ) tokens, departing from the diffusion Transformer-based continuous generation paradigm prevalent in recent general au",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-09-10T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Feyospace-v1: How the Cyber Mercury Seven Trained Frontier Cyber Models",
+      "summary": "Training capable cyber agents is often treated primarily as a problem of model scale, yet open-weight post-training is constrained more directly by the cost of executable environments, reliable multi-turn supervision, and access to strong teachers. We present a data-centric framework that addresses these bottlenecks through five complementary systems: Choulea analyzes hidden reasoning signatures, SkyReal reduces teacher-sampling cost, Hongzwang bypasses API restrictions on teacher execution, PSB",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-09-07T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "AI Agent",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation",
+      "summary": "Benchmark researchers and developers of large language models (LLMs) and other AI systems need to find relevant evaluations, locate their benchmark datasets and code, and understand the settings behind reported scores. We present Benchmark Radar, a living database and search engine for retrieval and discovery of AI benchmarks, covering LLM evaluation, agentic and tool-use benchmarks, coding, reasoning, safety, and domain-specific evaluations. The system combines daily discovery of benchmark pape",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-09-09T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models",
+      "summary": "Robot foundation models achieve strong in-distribution performance but often degrade under visual distribution shifts. When learning to generate actions from pretrained visual representations, models may exploit task-irrelevant visual cues that correlate with demonstrated actions within the training distribution. Such vision-action shortcuts can undermine generalization when these correlations change under distribution shifts. Mitigating these shortcuts requires constraining how visual informati",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-09-10T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "多模态 AI",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization",
+      "summary": "Large language model (LLM) agents can benefit from reusable skills distilled from prior task experience, yet existing skill optimization methods often rely on costly execution-based evaluation and substantial task data. We introduce COBRA-Skills, an efficient framework that formulates skill optimization as budgeted sequential optimization over a dynamically evolving candidate space. COBRA-Skills couples contextual-bandit-guided prioritization with evidence-grounded skill evolution, selectively a",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-09-09T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "PLC-DPO: Posterior Label Correction in Noisy and Ambiguous Preference Optimization",
+      "summary": "Direct Preference Optimization (DPO) simplifies alignment through pairwise comparisons but assumes all observed preferences are reliable. Real data often violates this assumption, leading to reversed, weak, or ambiguous labels that cause harmful policy updates. To address this, we propose Posterior Label Correction DPO (PLC-DPO) to robustly optimize preferences by routing each pair's training signal as a clean, flip, or tie case. The key idea is to use the calibrated policy-reference margin as o",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-08-30T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "模型训练与优化",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "SNAP3D: Physically Grounded 3D Parts for Assembly from a Single Image",
+      "summary": "Part-aware 3D asset generation enables applications such as editing, articulation, simulation, and fabrication, yet existing methods can generate visually complete individual parts without ensuring that they form a valid physical assembly. Consequently, generated neighboring parts may interpenetrate, lack valid connections, or collapse under gravity. We propose a physics-guided framework for improving single-image part-aware 3D generation with physically compatible geometry and stable connection",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-09-10T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "强化学习",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
+      "summary": "Post-training attention sparsification reduces the quadratic cumulative attention cost of pretrained Transformers by selecting a small set of context units (tokens or blocks) for each query. Existing trainable methods usually use a lightweight selector to score context units, followed by hard Top-K selection that blocks gradients from the language modeling loss. Consequently, these methods commonly distill layer-wise dense attention distributions. Although this encourages the selector to rank co",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-09-10T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
     },
     {
       "id": "",
@@ -744,102 +840,6 @@
       "score": 0,
       "source": "Hugging Face Daily Papers",
       "category": "强化学习",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "SyncWorld: Visual Calibration Enables World Models as Zero-Shot Simulators",
-      "summary": "World models are increasingly used as policy-in-the-loop imagination environments, where reliable rollouts require fine-grained controllability with respect to low-level robot actions. A key obstacle to scaling such models in robotics is that actions are not a universal language in pixel space: changes in visual environment, camera view, robot placement, or embodiment alter how the same numerical action manifests visually, leading to conflicting supervision under mixed training and brittle gener",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-09-07T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "强化学习",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "DF26: We Cannot Tell Fake From Real Anymore",
-      "summary": "We introduce DF26, a novel benchmark for detecting AI-generated videos containing fully synthetic clips produced by recent text-to-video and image-to-video models. The videos capture single-person public-speaking scenarios, spanning direct-to-camera recordings, official statements, and studio interviews - 271 real and 2,420 synthetic videos generated by seven modern video models. The study on DF26 shows that human performance in detecting AI-generated videos, as well as state-of-the-art deepfake",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-09-06T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "AI 安全与对齐",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data",
-      "summary": "Recent advances in wearable sensing enable continuous monitoring of physiological and behavioral signals, yet existing benchmarks rarely evaluate whether AI systems can reason over a real user's longitudinal wearable record. We introduce WearableQA, a benchmark comprising 4,084 10-option multiple-choice questions constructed from the wearable time series, blood biomarkers, and demographics of 200 real users, each with up to 500 days of daily measurements. WearableQA preserves authentic wearable ",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-09-03T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability Research?",
-      "summary": "While research on recursive self-improvement (RSI) has predominantly automated model training pipelines, reliable autonomous development demands a missing pillar: post-hoc monitoring and auditing to understand what models learn and ensure safe alignment. Mechanistic interpretability tools are essential to bridge this gap, among which Sparse Autoencoders (SAEs) serve as a cornerstone by isolating interpretable features for model inspection and steering. In this paper, we introduce SAEScientist-Be",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-09-07T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "AI Agent",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Diffs vs. Whole Files: An Empirical Comparison of Iterative Edit-Based and Direct Generation for Flutter/Dart Code Models",
-      "summary": "Large language models used for code editing can be trained and deployed in at least two output regimes: direct generation, where the model emits the entire modified file in one shot, and iterative diff-based generation (\"steps\"), where the model emits a sequence of localized search/replace edits applied one at a time until it signals completion or a step budget is exhausted. The diff-based regime is attractive because it mirrors how developers edit code and should require far fewer generated tok",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-09-04T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails",
-      "summary": "Agent harnesses (the system prompt, tool set, execution hooks, and context-management scaffolding around a model) are a critical determinant of agentic task success. Automated harness evolution can enable smaller models to perform well on domain-specific tasks at a fraction of frontier-model cost. Since both the harness and model weights shape behavior, we ask how harness evolution and lightweight fine-tuning should be combined. Across seven enterprise agent tasks, we first evolve a harness with",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-09-07T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "AI Agent",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "DianShi-RxnDB: A Large-Scale, Fine-Grained Organic Reaction Data Platform Built via a Fully Automated Pipeline for Researchers and AI Agents",
-      "summary": "High-quality structured organic reaction data are essential for developing artificial intelligence for chemistry (AI4Chem), yet much of this knowledge remains dispersed across patent text, images, and reaction schemes. We present DianShi-RxnDB, a large-scale, fine-grained organic reaction data platform built via a fully automated extraction and normalization pipeline integrating patent text, images, and reaction schemes. Its corpus covers organic synthesis patents from the USPTO and EPO publishe",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-09-05T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "AI Agent",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Scores Alone Do Not Prove Discovery: The Discovery Certification Protocol for Auditing AI Research Agents",
-      "summary": "AI research agents combine prior knowledge, public sources, and experimental feedback to produce useful results. The Discovery Certification Protocol (DCP) turns claims about these results into executable recovery and feedback tests. Gate 1 validates useful improvement on sealed evaluation. Gate 2 gives matched agents the registered starting information and observed Web content while withholding the target research history. Every valid method reaching the numerical target supplies a recovery wit",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-09-06T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
       "type": "paper"
     }
   ]
