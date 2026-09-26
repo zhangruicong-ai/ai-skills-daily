@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T07:14:34.540Z",
+  "lastUpdated": "2026-09-26T07:09:54.542Z",
   "total": 65,
   "articles": [
     {
@@ -11,9 +11,9 @@
       "authors": [
         "langgenius"
       ],
-      "score": 157150,
+      "score": 157235,
       "language": "TypeScript",
-      "forks": 24776,
+      "forks": 24784,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -27,9 +27,9 @@
       "authors": [
         "bytedance"
       ],
-      "score": 82955,
+      "score": 82984,
       "language": "Python",
-      "forks": 11484,
+      "forks": 11490,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -43,9 +43,9 @@
       "authors": [
         "unslothai"
       ],
-      "score": 76735,
+      "score": 76799,
       "language": "Python",
-      "forks": 7028,
+      "forks": 7044,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -59,9 +59,9 @@
       "authors": [
         "hiyouga"
       ],
-      "score": 75007,
+      "score": 75016,
       "language": "Python",
-      "forks": 9188,
+      "forks": 9189,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -75,9 +75,9 @@
       "authors": [
         "headroomlabs-ai"
       ],
-      "score": 73753,
+      "score": 73831,
       "language": "Python",
-      "forks": 5693,
+      "forks": 5697,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -91,7 +91,7 @@
       "authors": [
         "jeecgboot"
       ],
-      "score": 47973,
+      "score": 47975,
       "language": "Java",
       "forks": 16195,
       "source": "GitHub Trending",
@@ -107,9 +107,9 @@
       "authors": [
         "AstrBotDevs"
       ],
-      "score": 40987,
+      "score": 41022,
       "language": "Python",
-      "forks": 2971,
+      "forks": 2976,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -123,9 +123,9 @@
       "authors": [
         "CopilotKit"
       ],
-      "score": 37543,
+      "score": 37553,
       "language": "TypeScript",
-      "forks": 4659,
+      "forks": 4663,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -139,9 +139,9 @@
       "authors": [
         "khoj-ai"
       ],
-      "score": 37492,
+      "score": 37504,
       "language": "Python",
-      "forks": 2493,
+      "forks": 2497,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -155,9 +155,9 @@
       "authors": [
         "reworkd"
       ],
-      "score": 36293,
+      "score": 36294,
       "language": "TypeScript",
-      "forks": 9249,
+      "forks": 9246,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -171,9 +171,9 @@
       "authors": [
         "Tencent"
       ],
-      "score": 29823,
+      "score": 30162,
       "language": "Go",
-      "forks": 4008,
+      "forks": 4052,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -203,9 +203,9 @@
       "authors": [
         "google"
       ],
-      "score": 21634,
+      "score": 21646,
       "language": "Python",
-      "forks": 4066,
+      "forks": 4064,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -219,7 +219,7 @@
       "authors": [
         "SWE-agent"
       ],
-      "score": 20400,
+      "score": 20408,
       "language": "Python",
       "forks": 2235,
       "source": "GitHub Trending",
@@ -235,12 +235,96 @@
       "authors": [
         "datawhalechina"
       ],
-      "score": 19543,
+      "score": 19548,
       "language": "JavaScript",
       "forks": 1871,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
+    },
+    {
+      "id": "",
+      "title": "Learning to Discover Interesting Mathematics",
+      "summary": "Recently, Large Language Models (LLMs) have been increasingly able to solve advanced mathematical problems, including many that have been open for decades. This opens the door to expansion of mathematical knowledge at unprecedented scale. Yet, while LLMs may be able to conjecture and prove more and more theorems, it remains open whether this new mathematical knowledge is interesting or useful. We define intrinsic interestingness of a theorem as the ratio between the length of its proof and the l",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-09-22T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation",
+      "summary": "In this paper, we propose RGBD20K, a novel dataset for facilitating the development of more robust and general RGB-D semantic segmentation by encompassing abundant categories and high-quality annotations. RGBD20K possesses several attractive properties: (1) Expanded Semantic Space. In particular, it covers 160 fine-grained categories, largely surpassing the category diversity of existing popular RGB-D benchmarks (e.g., NYUv2 with 40 classes and SUN RGB-D with 37 classes). With such enriched sema",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-09-23T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "多模态 AI",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation",
+      "summary": "Recent years have witnessed major progress in joint audio-video generation. Existing models still suffer from limited per-modality fidelity, insufficient text-modality alignment and weak cross-modal synchronization. While reinforcement-learning post-training offers a promising remedy, directly adapting it to joint audio-video generation is challenging. Heterogeneous multimodal rewards entangle learning signals and complicate credit assignment. Joint optimization of two modality towers is computa",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-09-23T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "多模态 AI",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
+      "summary": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions. We term this the Superposition Linearity Hypothesis. We provide evidence that superposition is an intrinsic property of the Transformer architecture rather than an emergent consequence of training; in fact, we observe ",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-09-23T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
+      "summary": "Detectors of alignment failures screen deployed language models and score alignment benchmarks. Most are generative judges that spend a decoding pass on every criterion, and classifiers that read token probabilities, such as Llama Guard, still score one fixed label per call. Jev, a model trained with reinforcement learning for calibrated decisions (RLCD), answers many typed questions about one input with calibrated probabilities in a single call. Whether it detects alignment failures has not bee",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-09-23T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Parts-of-Speech as Emergent Categories in SAE Latent Space",
+      "summary": "Sparse AutoEncoders (SAEs) offer a promising way to inspect language model representations, but it is still unclear what kind of linguistic structure their latents expose. We use part-of-speech (PoS) categories as a controlled test case to study whether morpho-syntactic information is encoded by individual latents or by structured groups of features. We find that PoS distinctions are highly recoverable from SAE activations, but do not align with one-to-one latent / category mappings. This recove",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-09-23T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Coding Agents for Generalized Task and Motion Planning Problems",
+      "summary": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints. Generalized TAMP addresses this difficulty by exploiting regularities across problem instances to reduce planning effort on new instances. However, existing methods require substantial TAMP-specific engineering. We investigate whether coding agents can automate this process by synthesizing",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-09-23T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
     },
     {
       "id": "",
@@ -756,90 +840,6 @@
       "score": 0,
       "source": "Hugging Face Daily Papers",
       "category": "强化学习",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Schrödinger's Code Repository: Have LLMs Learned SWE-bench or Memorized It?",
-      "summary": "Repository-level coding benchmarks have become the standard for evaluating coding agents, yet they inherently suffer from data leakage because they are built upon popular open-source repositories repeatedly used for training. Consequently, strong performance may reflect memorization of canonical repository cues rather than robust repository reasoning. We propose SchrodingerRepo (Schrödinger's Repository), an evaluation framework for testing coding agents under dynamically instantiated repository",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-08-20T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "HARMONY: Hierarchical Agentic Reasoning for MONocular Image-to-Scene Synthesis",
-      "summary": "Compositional 3D scene reconstruction has recently been explored from two directions: agentic reasoning that provides semantic understanding of spatial relationships but lacks precise alignment with input images; and visual geometry foundation models that predict dense point maps from input images but the reconstruction quality is limited. Therefore, recovering a complete 3D scene from a single monocular image with accurate inter-object relationships and high-fidelity reconstruction quality rema",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-09-21T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Tri-PvP: Exposing Modality Bias in Omni-Modal Large Language Models through Perceptual-Propositional Evidence Conflicts",
-      "summary": "Omni-modal large language models (OLLMs) jointly process vision, audio, and text, yet their modality bias under cross-modal conflict remains underexplored. Existing benchmarks conflate two distinct forms of evidence within a single modality: perceptual signals (e.g., a photograph or recording of a dog) and propositional signals (e.g., the declarative claim \"this is a dog\"), such that any measured modality bias is inherently confounded with evidence-form bias, precluding clean attribution to eith",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-09-04T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Embedding Physics Priors in Robot Learning: A Survey",
-      "summary": "The rapid progress of artificial intelligence is reshaping robotics and accelerating the adoption of learning-based approaches. While purely data-driven methods have achieved remarkable success in computer vision and natural language processing, robotics remains constrained by limited data, complex real-world interactions, and the need for reliable operation. These challenges have motivated the exploration of physics-embedded robot learning, which embeds physics priors into learning algorithms. ",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-09-14T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "强化学习",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
-      "summary": "A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness frameworks support multi-agent systems. However, the scalability of current multi-agent harnesses is often constrained by a central orchestrator's capacity to allocate tasks and coordinate workers. To address this limitation, we introduce Agensh, a scalable self-organized multi-agent harness without a central orchestrator: concurrent workers execute a multi-agent cooperation loop, ",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-09-21T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
-      "summary": "LLM-as-a-judge enables evaluation across diverse tasks, but inference cost and confidence reliability become critical at scale. We study whether a decision-only judge can provide an economical first pass and identify when stronger evaluation is needed. Comparing jev-as-a-judge with sixteen generative and reward-model judges, with blinded human adjudication, we find it within three percentage points of a state-of-the-art LLM judge, our strongest comparator, on ordinary preference and evidence-gro",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-09-21T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "LatentPort: Beyond KV Cache - Cross-Model Transfer of Recurrent Memory in Hybrid Language Models: A 4B-to-9B Hybrid-State Handoff Without Target Prefix Replay",
-      "summary": "Can one language model hand its live memory to another without the receiver rereading the context? We demonstrate useful persistent hybrid-state transfer across one architecture-matched Qwen3.5 4B-to-9B sibling pair. To our knowledge, this is the first demonstrated cross-model handoff of persistent recurrent inference state between differently sized hybrid language models without target prefix replay. Translated attention KV alone leaves a large gap; adding the Gated DeltaNet (GDN) persistent-st",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-09-06T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
       "type": "paper"
     }
   ]
