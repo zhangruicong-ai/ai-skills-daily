@@ -1,7 +1,475 @@
 {
-  "lastUpdated": "2026-10-23T07:05:16.327Z",
-  "total": 50,
+  "lastUpdated": "2026-10-24T06:56:42.088Z",
+  "total": 65,
   "articles": [
+    {
+      "id": "626805178",
+      "title": "dify - Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production with",
+      "summary": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+      "url": "https://github.com/langgenius/dify",
+      "publishedAt": "2023-04-12T07:40:24Z",
+      "authors": [
+        "langgenius"
+      ],
+      "score": 159398,
+      "language": "Python",
+      "forks": 25184,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "979115477",
+      "title": "deer-flow - An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different ",
+      "summary": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "url": "https://github.com/bytedance/deer-flow",
+      "publishedAt": "2025-05-07T02:50:19Z",
+      "authors": [
+        "bytedance"
+      ],
+      "score": 84349,
+      "language": "Python",
+      "forks": 11798,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "725205304",
+      "title": "unsloth - Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
+      "summary": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
+      "url": "https://github.com/unslothai/unsloth",
+      "publishedAt": "2023-11-29T16:50:09Z",
+      "authors": [
+        "unslothai"
+      ],
+      "score": 78493,
+      "language": "Python",
+      "forks": 7270,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "1129940957",
+      "title": "headroom - Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "publishedAt": "2026-01-07T19:58:51Z",
+      "authors": [
+        "headroomlabs-ai"
+      ],
+      "score": 77676,
+      "language": "Python",
+      "forks": 6033,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "646410686",
+      "title": "LlamaFactory - Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+      "summary": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+      "url": "https://github.com/hiyouga/LlamaFactory",
+      "publishedAt": "2023-05-28T10:09:12Z",
+      "authors": [
+        "hiyouga"
+      ],
+      "score": 75702,
+      "language": "Python",
+      "forks": 9285,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "159152904",
+      "title": "JeecgBoot - 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，解决 Java 项目 90% 重复工",
+      "summary": "【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，解决 Java 项目 90% 重复工作，提高效率又不失灵活。",
+      "url": "https://github.com/jeecgboot/JeecgBoot",
+      "publishedAt": "2018-11-26T10:40:00Z",
+      "authors": [
+        "jeecgboot"
+      ],
+      "score": 48269,
+      "language": "Java",
+      "forks": 16223,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "575865240",
+      "title": "AstrBot - AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+      "summary": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "publishedAt": "2022-12-08T13:27:46Z",
+      "authors": [
+        "AstrBotDevs"
+      ],
+      "score": 43072,
+      "language": "Python",
+      "forks": 3156,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "655515393",
+      "title": "CopilotKit - The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
+      "summary": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "publishedAt": "2023-06-19T04:08:31Z",
+      "authors": [
+        "CopilotKit"
+      ],
+      "score": 38199,
+      "language": "TypeScript",
+      "forks": 4767,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "396569538",
+      "title": "khoj - Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonom",
+      "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
+      "url": "https://github.com/khoj-ai/khoj",
+      "publishedAt": "2021-08-16T01:48:44Z",
+      "authors": [
+        "khoj-ai"
+      ],
+      "score": 37802,
+      "language": "Python",
+      "forks": 2529,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "624681066",
+      "title": "AgentGPT - 🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.",
+      "summary": "🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.",
+      "url": "https://github.com/reworkd/AgentGPT",
+      "publishedAt": "2023-04-07T02:29:19Z",
+      "authors": [
+        "reworkd"
+      ],
+      "score": 36274,
+      "language": "TypeScript",
+      "forks": 9194,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "1024118326",
+      "title": "WeKnora - Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "summary": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "url": "https://github.com/Tencent/WeKnora",
+      "publishedAt": "2025-07-22T08:01:23Z",
+      "authors": [
+        "Tencent"
+      ],
+      "score": 35249,
+      "language": "Go",
+      "forks": 4740,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "640317662",
+      "title": "vanna - 🤖 Chat with your SQL database 📊. Accurate Text-to-SQL Generation via LLMs using Agentic Retrieval 🔄.",
+      "summary": "🤖 Chat with your SQL database 📊. Accurate Text-to-SQL Generation via LLMs using Agentic Retrieval 🔄.",
+      "url": "https://github.com/vanna-ai/vanna",
+      "publishedAt": "2023-05-13T17:26:28Z",
+      "authors": [
+        "vanna-ai"
+      ],
+      "score": 23813,
+      "language": "Python",
+      "forks": 2548,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "958830659",
+      "title": "adk-python - An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+      "summary": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+      "url": "https://github.com/google/adk-python",
+      "publishedAt": "2025-04-01T20:44:40Z",
+      "authors": [
+        "google"
+      ],
+      "score": 21983,
+      "language": "Python",
+      "forks": 4225,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "1195243030",
+      "title": "learn-harness-engineering - Harness engineering beginner tutorial, from 0 to 1",
+      "summary": "Harness engineering beginner tutorial, from 0 to 1",
+      "url": "https://github.com/walkinglabs/learn-harness-engineering",
+      "publishedAt": "2026-03-29T12:28:19Z",
+      "authors": [
+        "walkinglabs"
+      ],
+      "score": 21224,
+      "language": "TypeScript",
+      "forks": 2375,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "780737106",
+      "title": "SWE-agent - SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 20",
+      "summary": "SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] ",
+      "url": "https://github.com/SWE-agent/SWE-agent",
+      "publishedAt": "2024-04-02T04:09:47Z",
+      "authors": [
+        "SWE-agent"
+      ],
+      "score": 20629,
+      "language": "Python",
+      "forks": 2263,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "",
+      "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
+      "summary": "Robots must act under physical and social constraints while adapting to changes in their environment and human needs. Existing embodied-agent systems often focus on specified goals or abstract execution into symbolic actions, limiting evaluation in an evolving world. We introduce TARSphere, a robot-oriented full-stack framework for physically and socially grounded long-horizon embodied agents. TARSphere-Infra runs robot policies in a physics simulator with embodied NPCs and constrained dialogue.",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-10-20T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
+      "summary": "Split language models keep input text on a client but send intermediate representations to a server. Attacks can reconstruct text from these messages. Comparing privacy evaluations is difficult when attackers see different messages, know different model weights or use different datasets and recovery measures. We present LLM-Attacker, a framework that records these choices and lets researchers check, compare and extend an evaluation. Compatible attacks reuse recorded messages, and their predictio",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-10-14T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?",
+      "summary": "Recursive self-improvement (RSI) relies on evaluation feedback to assess progress and guide further research, yet repeatedly running complex benchmarks is costly and slows iteration. Human experts reduce this cost by selecting benchmark subsets or designing compact suites. We ask whether AI agents can automate this design process and introduce EvalResearchBench (ERB), a benchmark for autonomous evaluation research. Given target materials, development references, candidate APIs, and fixed time an",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-10-15T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "AI Agent",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Diffusion Language Models Change Speed Across Tasks and Languages",
+      "summary": "Diffusion language models can write several tokens in one forward pass, and they decide during generation how many passes to spend. Two outputs of the same token length can therefore vary a lot in cost. To understand the underlying factors of this cost variation, we analyze two diffusion models across 10 tasks. We find that the number of forward passes per token depends heavily on the task. Text copied or lightly edited from the input is cheap, while open-ended writing is costly. In DiffusionGem",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-10-19T01:47:58.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
+      "summary": "Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process. In this work, we reveal that quantization sensitivity is both taskand time-dependent, with different downstream tasks exhibiting distinct precision requirements across denoising steps. We further show that these patterns can be predicted without groundtruth labels or task-specific evaluation metrics. Building on these findings, we introduce T 2Quant, a task and time-aware mixedprec",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-10-21T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Bridging Exploration and Persona: Information-Directed Dueling for Test-Time Agent Personalization",
+      "summary": "Effective test-time personalization requires LLM agents to adapt to query-dependent user preferences from lightweight interaction. We study persona selection with binary comparisons between candidate responses as the online signal. We present ID-TAP, a scalable, IDS-inspired neural dueling-bandit framework for large discrete persona spaces. ID-TAP combines a query-conditioned neural utility model with a lightweight Bradley-Terry explorer, and transfers comparison evidence across related queries ",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-10-16T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "IF-MAP: Influence-Function-Inspired Agent Prioritization in Multi-Agent Systems",
+      "summary": "Improving every agent in an LLM-based multi-agent system can be prohibitively costly, making it important to identify which agent should be prioritized to achieve the greatest system-level gain with limited resources. Failure attribution can inform this decision, but an agent's responsibility for failures does not directly reveal the system-level gains achievable by improving it. We therefore introduce IF-MAP, an influence-function-inspired method for identifying agents with high potential for s",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-10-16T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
+      "summary": "Modern LLM agents can retrieve information from accessible documents, and then disclose a sensitive conclusion assembled from them. This mosaic effect creates a critical risk for agents operating over confidential data. We quantify its realization with 30 synthetic cybersecurity, medical, and military examples, yielding 10,800 final answers from three LLM agents in controlled simulation and 1,440 answers from live agents in two open-source harnesses. Even under benign queries designed to be answ",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-10-20T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "HyperDrone: Simulation-to-Reality Transfer at Millions of Frames per Second",
+      "summary": "We present HyperDrone, an extremely fast quadrotor simulator focused on high-performance batch rendering that is more than 20x faster than existing state-of-the-art batch quadrotor simulators. HyperDrone combines highly optimized multirotor dynamics with HyperLux, a new ray-tracing engine that supports Nvidia OptiX, Vulkan, Apple Metal and WebGPU backends that takes full advantage of modern ray-tracing hardware, capable of running both components entirely on the GPU. HyperLux renders RGB, depth,",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-10-19T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "强化学习",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
+      "summary": "Frontier coding agents are becoming increasingly adept at 3D modeling. Yet, they still face challenges when building objects meant to be assembled in the physical world, often creating invalid assemblies with floating, colliding, or disconnected parts. We argue that providing agents with tools for assembling builds and verifying their physical feasibility is sufficient for them to produce physically valid assemblies that still adhere to input prompts. Focusing on the domain of LEGO brick builds,",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-10-21T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Who Takes the Lead? Model Ability and Task-Conditioned Collaboration with Humans",
+      "summary": "As language-model agents grow more capable, they can carry more of a task without asking anyone for help. Falling reliance on a human partner is easy to read as a failure of collaboration when it may instead be a correct division of labor, and the rate of human involvement alone cannot tell the two apart. We study this systematically by placing an agent and a person under a shared objective while varying who holds the advantage: the human has a clear advantage, neither does, or the agent does. T",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-10-18T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "FilmFlow: Agentic System for 3D Virtual Film Cinematography",
+      "summary": "Complex camera motion is central to visual storytelling, yet translating cinematographic intent into controllable, executable camera trajectories remains challenging. We introduce FilmFlow, an agentic framework that converts natural-language instructions or reference videos into explicit camera trajectories for dynamic 3D environments. To generate these trajectories, a Director agent constructs executable camera plans by composing high-level motions from concurrent atomic operations that jointly",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-10-21T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "AI Agent",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention",
+      "summary": "Autonomous research agents are increasingly used to automate large portions of scientific research, yet they are prone to research integrity violations (RIVs): behaviors that compromise the validity, reproducibility, or faithfulness of the research process. We present RIDAR, a framework for automated RIV detection and runtime intervention. First, we introduce RIVT, a comprehensive taxonomy of 14 RIV types spanning the full research lifecycle. Building on RIVT, we present RIDAR-post-hoc, a framew",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-10-21T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "AI Agent",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "Realism VS Accuracy: Event Sequence Forecasting from a Generative Modeling Perspective",
+      "summary": "Event sequences are chains of random events, each described by heterogeneous (numerical and categorical) features. The problem of event sequence forecasting occurs in finance, healthcare, business process intelligence, and other fields. In this work, we study multi-horizon forecasting of event sequences as a conditional generative modeling problem. We evaluate forecasts not only for prediction accuracy, but also for distributional realism. To this end, we present a benchmark comprising metrics f",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-10-07T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "多模态 AI",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "MambaAct: Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action Models",
+      "summary": "Vision-language-action (VLA) models have shown strong promise for generalist robotic manipulation, but their inference cost remains a major bottleneck for real-time control. This limitation is especially pronounced in flow-matching VLAs such as π_{0.5}, where the action expert is evaluated repeatedly during iterative denoising. We introduce MambaAct, an efficient Mamba action expert for flow-matching VLA policies. MambaAct retains the pretrained visual-language prefix encoder of π_{0.5}, while r",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-10-15T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "SplatLab: Autonomous Scientific Discovery for 3DGS Research",
+      "summary": "Reproducing a published 3DGS paper takes weeks of expert engineering before any extension can be proposed. Prior autonomous-research systems read papers, draft hypotheses, and write code, but are limited by short fixed templates, low executability, and weak traceability, and none has been demonstrated end-to-end in a live computer-vision subfield with intense activity. SplatLab is an autonomous research system for 3D Gaussian Splatting that addresses these limitations. Given a research prompt, a",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-10-20T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "强化学习",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "RTAformer: Relation-Transition-Aware Transformer for Video Scene Graph Generation",
+      "summary": "Video scene graph generation (VidSGG) aims to capture objects and their evolving relationships in videos. This requires accounting for both the persistence of object identities and abrupt changes in relationships. Existing methods aggregate information across frames to exploit temporal context, but an emphasis on consistency can obscure these changes. As a result, a model may retain its previous prediction even after the underlying relation has changed. We refer to this failure mode as relationa",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-10-13T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+      "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optimal learning rates; (2) fine-grained mid-training, expanding the data mixture across domains and forma",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-10-21T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "强化学习",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
+      "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, enabling localization at any user-specific granularity, from points and boxes to masks and alpha matte",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-10-21T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
     {
       "id": "",
       "title": "What Generation Knows: Unlocking Fine-Grained Understanding in Unified Multimodal Models",
@@ -372,234 +840,6 @@
       "score": 0,
       "source": "Hugging Face Daily Papers",
       "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "MMedAgent-Plus: Scaling Multimodal Medical Agents across Modalities, Tasks and Workflows",
-      "summary": "Medical workflows often require multiple interdependent analyses, but existing specialist and generalist AI models are not designed to coordinate them. We introduce MMedAgent-Plus, a multimodal medical tool-use agent that combines a vision-language planner with 18 leading specialist models spanning 12 tasks and 8 modalities. Through a unified tool interface, the planner selects specialists, executes them in sequence, and synthesizes responses grounded in their outputs. The planner is instruction",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-10-18T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "多模态 AI",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy",
-      "summary": "LLM agents that compute the right answer can still answer wrongly. Agent harnesses increasingly keep long tool outputs out of the context window, saving them to files that the agent searches or reads on demand. We ask where this costs accuracy with a real scientific tool: PHREEQC, a widely used geochemistry simulator from the USGS, whose reports reach 846.8k characters and whose determinism lets every printed value be traced. Agents use it to answer 158 execution-verified multiple-choice items. ",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-10-18T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Bridged Self-Distillation for On-Policy Learning",
-      "summary": "On-policy distillation can transfer the reasoning capabilities of a strong teacher to a smaller student. However, distillation from a stronger teacher model faces two mismatches: its solutions may be difficult for a smaller student to imitate, and its token-level probabilities may be incompatible with, or even unavailable to, the student. Existing methods handle these settings through different forms of supervision. To this end, we propose Bridged Self-Distillation (BSD), a unified framework for",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-10-19T09:40:50.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "模型训练与优化",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Stratified Sparse Attention: Reducing the Sparse-to-Dense Gap at Extreme Sparsity",
-      "summary": "Large Language Model inference over long contexts is increasingly bottlenecked by the cost of attending to a growing Key-Value (KV) cache. Sparse attention reduces this cost by accessing only a fraction of the cache, but existing methods face a trade-off between deterministic retrieval, which captures high-scoring tokens but discards residual attention mass, and sampling, which improves coverage at the cost of higher variance. Hybrid methods combine top-k retrieval with uniform sampling, yet sti",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-10-19T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "StyleStream 2.0: Fast and Controllable Streaming Voice Style Conversion",
-      "summary": "Voice style conversion (VSC) aims to transform a source utterance to match the timbre, accent, and emotion of a target voice while preserving linguistic content. StyleStream 1.0 introduced the first streamable zero-shot VSC system with state-of-the-art conversion quality, but remained limited in two ways: approximately 1s end-to-end latency on consumer hardware, and the lack of a text-based interface for designing or editing target voices. We present StyleStream 2.0, a fast and controllable stre",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-10-19T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "模型训练与优化",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "FrontierCS 2: A Benchmark for Computer Science R&D",
-      "summary": "Can LLM agents make contributions to frontier computer science R&D? We introduce FrontierCS 2, a benchmark of 48 open-ended tasks. We take a paper and the code its authors released and delete the paper's contribution. The deleted code becomes the human reference that sets the bar. Earlier open-ended benchmarks give each agent a problem statement and grade one program after the run. FrontierCS 2 places the agent inside a research environment. The agent inherits a working repository and may submit",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-10-20T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Language Models Learn to Improve Language Models",
-      "summary": "Large language models (LLMs) are increasingly used to automate AI research, including language-model (LM) development, offering a potential path toward recursive self-improvement. However, turning experimental feedback into a learned ability to propose effective improvements across models faces two challenges. First, training such an ability with real feedback is expensive: reinforcement learning (RL) requires evaluating tens of thousands of proposals, each potentially requiring a full model-tra",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-10-15T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "VerifierBench: Benchmarking the Generation of Executable Verifiers for LLM Agents",
-      "summary": "Agents need reliable ways to validate their outputs, both when completing tasks and when filtering synthetic training data. We study verifier generation: from the instruction and environment available for solving a task, an agent writes an executable verifier that must accept every valid solution and reject invalid ones. We introduce VerifierBench, a benchmark of 222 tasks from six agent benchmarks spanning tool-call, state-based, and code verification, with 4,993 hidden test cases that include ",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-10-18T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Looped Uniform Diffusion Language Models",
-      "summary": "Uniform diffusion language models (UDLMs) generate text by iteratively denoising sequences of ordinary vocabulary tokens, any of which may be corrupted and subsequently revised. During training, UDLMs must denoise from a context that may itself be unreliable, whereas masked diffusion language models (MDLMs) always condition on a clean context. This challenging training objective makes UDLMs more FLOP-intensive to train than MDLMs, but it yields stronger downstream reasoning performance. Recently",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-10-20T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "RoboCasa-Shift: Stage-Aware Robustness Evaluation of Vision-Language-Action Policies in Long-Horizon Household Manipulation",
-      "summary": "Vision-language-action (VLA) robustness is commonly summarized by aggregate task success, which obscures how individual executions change under distribution shifts and where failures emerge in long-horizon tasks. We introduce RoboCasa-Shift, a diagnostic robustness benchmark built on RoboCasa365 that combines controlled single-factor shifts, matched clean-perturbed rollouts in which each pair shares the same underlying settings and differs only in the target shift, and simulator-grounded stage-a",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-10-19T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "多模态 AI",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Exploring The Empirical Privacy Landscape of Synthetic Data",
-      "summary": "Methods for training language models on sensitive data differ in how they balance capability gains against the risk of leaking private information. In this paper, we present a controlled comparison of data-level and training-level interventions for navigating the capability-privacy tradeoff on synthetic medical records with canaries to probe for leakage. Direct finetuning performs best on capability metrics but leads to the most privacy leakage, while DP-SGD reduces leakage at substantial cost t",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-10-14T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Hidden Messages Between Diffusion Language Model Agents: Causal Evidence for Latent Communication",
-      "summary": "Diffusion language models form answers through a sequence of revisable continuous states, but multi-agent systems usually discard those states and make agents communicate only after decoding text. We ask whether one independent diffusion trajectory can pass a compact hidden message into another and, crucially, whether the receiver uses what that message means. In Hidden Messages, a sender compresses its denoising state into four signed dense vectors; the receiver consumes them while retaining it",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-10-19T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "DiffResearch: Accelerating Deep Research with Diffusion Language Models",
-      "summary": "Deep research systems iteratively plan, gather evidence, synthesize, and revise, making end-to-end latency a key bottleneck for interactive use. Almost all production systems are built on autoregressive (AR) language models and inherit left-to-right decoding in planning and long-form writing. We present DiffResearch, an open multi-agent deep research framework that places a diffusion language model (dLLM) at the core of every stage, and measure how a diffusion backbone changes latency and report",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-10-19T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
-      "summary": "Quantitative research is an iterative loop: a researcher proposes a market hypothesis, implements it as an executable signal, tests it on historical data, and decides what to keep. Existing benchmarks score formulas, code, or individual trading decisions, leaving open whether large language models (LLMs) can complete this loop and produce strategies that work beyond the research period. We introduce Quant-Arena, a benchmark and public leaderboard for end-to-end quantitative research on real A-sh",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-10-20T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "ToM2Vec: Continuous Theory-of-Mind Tokens for Multi-Agent Coordination",
-      "summary": "Forming an accurate theory-of-mind (ToM) is key to successful multi-agent collaboration and requires reasoning under uncertainty to capture multiple possible partner states. This is hard to do in the text representation space native to large language model (LLM) agents, which more easily describe a single partner state. To address this challenge, we introduce ToM2Vec, which learns to form abstract theories-of-mind in a rich latent space via a fixed budget of continuous reasoning tokens. During t",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-10-20T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Design Anything, Design at Scale",
-      "summary": "As multimodal resources are transformed into media outputs, agentic AI is expected to stay aligned with design intent over long horizons. Designers follow briefs specifying goals, constraints, and deliverables, with later work building on earlier decisions. Recent work reuses design experience across tasks, yet alignment among artifacts within one project remains challenging. Agents therefore need to preserve and apply this intent across domains and as projects grow. We introduce Design Anything",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-10-16T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "Retrieval Augmented Generation Compositionality",
-      "summary": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains unclear whether their isolated gains survive composition, whether retrieval quality and answer faithfulness favor the same design choices, and whether conclusions from small corpora hold at large scale. W",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-10-20T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "From RL Papers to Framework Code: Inclusion and Review in Seven Open-Source Training Frameworks",
-      "summary": "Practitioners use reinforcement learning methods for language models through training frameworks, so a method that a framework includes is one configuration change away for its users. We measure how often this happens. We trace seven open-source frameworks for RL post-training through their commit histories and link them to 6,939 screened arXiv papers from January 2025 to June 2026. Of 1,598 papers that propose a general RL training method, 37 reached at least one framework. Across five quarterl",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-10-19T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "LLM / 大语言模型",
-      "type": "paper"
-    },
-    {
-      "id": "",
-      "title": "WorldStream: Streaming Interactive 3D Worlds with Hierarchical Planning and Persistent State",
-      "summary": "We present WorldStream, an open-ended 3D world model with three simultaneous capabilities: it extends playable terrain beyond any pre-specified map, acts on open-ended language in the running world, and restores visited places with their edits. A hierarchical planner over a typed decision model emits structured decision state: Macro fixes settlement, ecology, transport, and hydrological structure across a group of tiles; Micro specializes that contract into tile semantics under measured terrain ",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-10-19T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "强化学习",
       "type": "paper"
     }
   ]
