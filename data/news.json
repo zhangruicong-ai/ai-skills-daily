@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T06:56:42.088Z",
+  "lastUpdated": "2026-10-25T07:20:51.172Z",
   "total": 65,
   "articles": [
     {
@@ -11,9 +11,9 @@
       "authors": [
         "langgenius"
       ],
-      "score": 159398,
+      "score": 159462,
       "language": "Python",
-      "forks": 25184,
+      "forks": 25201,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -27,9 +27,9 @@
       "authors": [
         "bytedance"
       ],
-      "score": 84349,
+      "score": 84396,
       "language": "Python",
-      "forks": 11798,
+      "forks": 11808,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -43,9 +43,9 @@
       "authors": [
         "unslothai"
       ],
-      "score": 78493,
+      "score": 78530,
       "language": "Python",
-      "forks": 7270,
+      "forks": 7284,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -59,9 +59,9 @@
       "authors": [
         "headroomlabs-ai"
       ],
-      "score": 77676,
+      "score": 77753,
       "language": "Python",
-      "forks": 6033,
+      "forks": 6040,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -75,9 +75,9 @@
       "authors": [
         "hiyouga"
       ],
-      "score": 75702,
+      "score": 75714,
       "language": "Python",
-      "forks": 9285,
+      "forks": 9289,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -91,9 +91,9 @@
       "authors": [
         "jeecgboot"
       ],
-      "score": 48269,
+      "score": 48276,
       "language": "Java",
-      "forks": 16223,
+      "forks": 16219,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -107,9 +107,9 @@
       "authors": [
         "AstrBotDevs"
       ],
-      "score": 43072,
+      "score": 43291,
       "language": "Python",
-      "forks": 3156,
+      "forks": 3177,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -123,9 +123,9 @@
       "authors": [
         "CopilotKit"
       ],
-      "score": 38199,
+      "score": 38219,
       "language": "TypeScript",
-      "forks": 4767,
+      "forks": 4770,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -139,9 +139,9 @@
       "authors": [
         "khoj-ai"
       ],
-      "score": 37802,
+      "score": 37813,
       "language": "Python",
-      "forks": 2529,
+      "forks": 2530,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -155,9 +155,9 @@
       "authors": [
         "reworkd"
       ],
-      "score": 36274,
+      "score": 36275,
       "language": "TypeScript",
-      "forks": 9194,
+      "forks": 9193,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -171,9 +171,9 @@
       "authors": [
         "Tencent"
       ],
-      "score": 35249,
+      "score": 35329,
       "language": "Go",
-      "forks": 4740,
+      "forks": 4756,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -203,9 +203,9 @@
       "authors": [
         "google"
       ],
-      "score": 21983,
+      "score": 21994,
       "language": "Python",
-      "forks": 4225,
+      "forks": 4235,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -219,9 +219,9 @@
       "authors": [
         "walkinglabs"
       ],
-      "score": 21224,
+      "score": 21368,
       "language": "TypeScript",
-      "forks": 2375,
+      "forks": 2388,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -235,9 +235,9 @@
       "authors": [
         "SWE-agent"
       ],
-      "score": 20629,
+      "score": 20633,
       "language": "Python",
-      "forks": 2263,
+      "forks": 2264,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -808,18 +808,6 @@
     },
     {
       "id": "",
-      "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
-      "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments. Viewing an observed video as a partial, lossy, and temporally ordered projection of a latent temporal world, w",
-      "url": "https://huggingface.co/papers/",
-      "publishedAt": "2026-10-21T20:00:00.000Z",
-      "authors": [],
-      "score": 0,
-      "source": "Hugging Face Daily Papers",
-      "category": "强化学习",
-      "type": "paper"
-    },
-    {
-      "id": "",
       "title": "Meta Expert: Cross-Layer Expert Sharing for Storage- and Retrieval-Efficient MoE",
       "summary": "As model parameters scale up, sparsely activated Mixture-of-Experts (MoE) approaches have become essential for model scaling. However, mainstream models currently adopt hierarchical architectures, where experts in different layers, although topologically independent, exhibit substantial similarity and redundancy in their stored content. Compared to the hierarchically arranged Local Expert in existing mainstream models, we hypothesize that inter-layer shared Meta Expert hold greater potential. To",
       "url": "https://huggingface.co/papers/",
@@ -840,6 +828,18 @@
       "score": 0,
       "source": "Hugging Face Daily Papers",
       "category": "LLM / 大语言模型",
+      "type": "paper"
+    },
+    {
+      "id": "",
+      "title": "MMedAgent-Plus: Scaling Multimodal Medical Agents across Modalities, Tasks and Workflows",
+      "summary": "Medical workflows often require multiple interdependent analyses, but existing specialist and generalist AI models are not designed to coordinate them. We introduce MMedAgent-Plus, a multimodal medical tool-use agent that combines a vision-language planner with 18 leading specialist models spanning 12 tasks and 8 modalities. Through a unified tool interface, the planner selects specialists, executes them in sequence, and synthesizes responses grounded in their outputs. The planner is instruction",
+      "url": "https://huggingface.co/papers/",
+      "publishedAt": "2026-10-18T20:00:00.000Z",
+      "authors": [],
+      "score": 0,
+      "source": "Hugging Face Daily Papers",
+      "category": "多模态 AI",
       "type": "paper"
     }
   ]
