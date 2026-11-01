@@ -1,7 +1,247 @@
 {
-  "lastUpdated": "2026-10-31T08:04:52.829Z",
-  "total": 50,
+  "lastUpdated": "2026-11-01T08:51:03.477Z",
+  "total": 65,
   "articles": [
+    {
+      "id": "626805178",
+      "title": "dify - Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production with",
+      "summary": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+      "url": "https://github.com/langgenius/dify",
+      "publishedAt": "2023-04-12T07:40:24Z",
+      "authors": [
+        "langgenius"
+      ],
+      "score": 160132,
+      "language": "Python",
+      "forks": 25313,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "979115477",
+      "title": "deer-flow - An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different ",
+      "summary": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "url": "https://github.com/bytedance/deer-flow",
+      "publishedAt": "2025-05-07T02:50:19Z",
+      "authors": [
+        "bytedance"
+      ],
+      "score": 84804,
+      "language": "Python",
+      "forks": 11907,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "725205304",
+      "title": "unsloth - Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
+      "summary": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
+      "url": "https://github.com/unslothai/unsloth",
+      "publishedAt": "2023-11-29T16:50:09Z",
+      "authors": [
+        "unslothai"
+      ],
+      "score": 78900,
+      "language": "Python",
+      "forks": 7345,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "1129940957",
+      "title": "headroom - Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "publishedAt": "2026-01-07T19:58:51Z",
+      "authors": [
+        "headroomlabs-ai"
+      ],
+      "score": 78492,
+      "language": "Python",
+      "forks": 6126,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "646410686",
+      "title": "LlamaFactory - Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+      "summary": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+      "url": "https://github.com/hiyouga/LlamaFactory",
+      "publishedAt": "2023-05-28T10:09:12Z",
+      "authors": [
+        "hiyouga"
+      ],
+      "score": 75814,
+      "language": "Python",
+      "forks": 9329,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "159152904",
+      "title": "JeecgBoot - 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，解决 Java 项目 90% 重复工",
+      "summary": "【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，解决 Java 项目 90% 重复工作，提高效率又不失灵活。",
+      "url": "https://github.com/jeecgboot/JeecgBoot",
+      "publishedAt": "2018-11-26T10:40:00Z",
+      "authors": [
+        "jeecgboot"
+      ],
+      "score": 48359,
+      "language": "Java",
+      "forks": 16222,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "575865240",
+      "title": "AstrBot - AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+      "summary": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "publishedAt": "2022-12-08T13:27:46Z",
+      "authors": [
+        "AstrBotDevs"
+      ],
+      "score": 45412,
+      "language": "Python",
+      "forks": 3329,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "655515393",
+      "title": "CopilotKit - The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
+      "summary": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "publishedAt": "2023-06-19T04:08:31Z",
+      "authors": [
+        "CopilotKit"
+      ],
+      "score": 38442,
+      "language": "TypeScript",
+      "forks": 4799,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "396569538",
+      "title": "khoj - Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonom",
+      "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
+      "url": "https://github.com/khoj-ai/khoj",
+      "publishedAt": "2021-08-16T01:48:44Z",
+      "authors": [
+        "khoj-ai"
+      ],
+      "score": 37925,
+      "language": "Python",
+      "forks": 2529,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "624681066",
+      "title": "AgentGPT - 🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.",
+      "summary": "🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.",
+      "url": "https://github.com/reworkd/AgentGPT",
+      "publishedAt": "2023-04-07T02:29:19Z",
+      "authors": [
+        "reworkd"
+      ],
+      "score": 36279,
+      "language": "TypeScript",
+      "forks": 9190,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "1024118326",
+      "title": "WeKnora - Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "summary": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "url": "https://github.com/Tencent/WeKnora",
+      "publishedAt": "2025-07-22T08:01:23Z",
+      "authors": [
+        "Tencent"
+      ],
+      "score": 36148,
+      "language": "Go",
+      "forks": 4918,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "640317662",
+      "title": "vanna - 🤖 Chat with your SQL database 📊. Accurate Text-to-SQL Generation via LLMs using Agentic Retrieval 🔄.",
+      "summary": "🤖 Chat with your SQL database 📊. Accurate Text-to-SQL Generation via LLMs using Agentic Retrieval 🔄.",
+      "url": "https://github.com/vanna-ai/vanna",
+      "publishedAt": "2023-05-13T17:26:28Z",
+      "authors": [
+        "vanna-ai"
+      ],
+      "score": 23803,
+      "language": "Python",
+      "forks": 2550,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "1195243030",
+      "title": "learn-harness-engineering - Harness engineering beginner tutorial, from 0 to 1",
+      "summary": "Harness engineering beginner tutorial, from 0 to 1",
+      "url": "https://github.com/walkinglabs/learn-harness-engineering",
+      "publishedAt": "2026-03-29T12:28:19Z",
+      "authors": [
+        "walkinglabs"
+      ],
+      "score": 22723,
+      "language": "TypeScript",
+      "forks": 2582,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "958830659",
+      "title": "adk-python - An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+      "summary": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+      "url": "https://github.com/google/adk-python",
+      "publishedAt": "2025-04-01T20:44:40Z",
+      "authors": [
+        "google"
+      ],
+      "score": 22067,
+      "language": "Python",
+      "forks": 4279,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
+    {
+      "id": "780737106",
+      "title": "SWE-agent - SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 20",
+      "summary": "SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] ",
+      "url": "https://github.com/SWE-agent/SWE-agent",
+      "publishedAt": "2024-04-02T04:09:47Z",
+      "authors": [
+        "SWE-agent"
+      ],
+      "score": 20697,
+      "language": "Python",
+      "forks": 2260,
+      "source": "GitHub Trending",
+      "category": "AI 开源项目",
+      "type": "github"
+    },
     {
       "id": "",
       "title": "EPSBench: Benchmarking LLM Agents for Earnings Forecasting",
