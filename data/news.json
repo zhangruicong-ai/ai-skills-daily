@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T08:41:57.019Z",
+  "lastUpdated": "2026-11-15T08:53:40.353Z",
   "total": 65,
   "articles": [
     {
@@ -11,9 +11,9 @@
       "authors": [
         "langgenius"
       ],
-      "score": 161134,
+      "score": 161183,
       "language": "Python",
-      "forks": 25484,
+      "forks": 25505,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -27,7 +27,7 @@
       "authors": [
         "bytedance"
       ],
-      "score": 85324,
+      "score": 85355,
       "language": "Python",
       "forks": 12026,
       "source": "GitHub Trending",
@@ -43,9 +43,9 @@
       "authors": [
         "headroomlabs-ai"
       ],
-      "score": 79615,
+      "score": 79692,
       "language": "Python",
-      "forks": 6230,
+      "forks": 6240,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -59,9 +59,9 @@
       "authors": [
         "unslothai"
       ],
-      "score": 79473,
+      "score": 79525,
       "language": "Python",
-      "forks": 7409,
+      "forks": 7416,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -75,9 +75,9 @@
       "authors": [
         "hiyouga"
       ],
-      "score": 76037,
+      "score": 76047,
       "language": "Python",
-      "forks": 9370,
+      "forks": 9374,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -91,9 +91,9 @@
       "authors": [
         "jeecgboot"
       ],
-      "score": 48471,
+      "score": 48485,
       "language": "Java",
-      "forks": 16217,
+      "forks": 16218,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -107,9 +107,9 @@
       "authors": [
         "AstrBotDevs"
       ],
-      "score": 46883,
+      "score": 46943,
       "language": "Python",
-      "forks": 3564,
+      "forks": 3580,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -123,9 +123,9 @@
       "authors": [
         "CopilotKit"
       ],
-      "score": 38696,
+      "score": 38707,
       "language": "TypeScript",
-      "forks": 4826,
+      "forks": 4827,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -139,9 +139,9 @@
       "authors": [
         "khoj-ai"
       ],
-      "score": 38125,
+      "score": 38128,
       "language": "Python",
-      "forks": 2549,
+      "forks": 2551,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -155,9 +155,9 @@
       "authors": [
         "Tencent"
       ],
-      "score": 37417,
+      "score": 37441,
       "language": "Go",
-      "forks": 5186,
+      "forks": 5191,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -171,9 +171,9 @@
       "authors": [
         "reworkd"
       ],
-      "score": 36263,
+      "score": 36267,
       "language": "TypeScript",
-      "forks": 9171,
+      "forks": 9170,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -187,9 +187,9 @@
       "authors": [
         "walkinglabs"
       ],
-      "score": 24658,
+      "score": 24957,
       "language": "TypeScript",
-      "forks": 2817,
+      "forks": 2853,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -205,7 +205,7 @@
       ],
       "score": 23800,
       "language": "Python",
-      "forks": 2551,
+      "forks": 2546,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -219,9 +219,9 @@
       "authors": [
         "google"
       ],
-      "score": 22210,
+      "score": 22224,
       "language": "Python",
-      "forks": 4355,
+      "forks": 4360,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -235,9 +235,9 @@
       "authors": [
         "SWE-agent"
       ],
-      "score": 20803,
+      "score": 20807,
       "language": "Python",
-      "forks": 2267,
+      "forks": 2269,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
