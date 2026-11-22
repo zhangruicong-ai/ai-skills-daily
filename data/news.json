@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T09:18:24.666Z",
+  "lastUpdated": "2026-11-22T09:27:16.789Z",
   "total": 65,
   "articles": [
     {
@@ -11,9 +11,9 @@
       "authors": [
         "langgenius"
       ],
-      "score": 161605,
+      "score": 161651,
       "language": "Python",
-      "forks": 25539,
+      "forks": 25535,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -27,9 +27,9 @@
       "authors": [
         "bytedance"
       ],
-      "score": 85567,
+      "score": 85593,
       "language": "Python",
-      "forks": 12068,
+      "forks": 12075,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -43,9 +43,9 @@
       "authors": [
         "headroomlabs-ai"
       ],
-      "score": 80228,
+      "score": 80311,
       "language": "Python",
-      "forks": 6277,
+      "forks": 6293,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -59,9 +59,9 @@
       "authors": [
         "unslothai"
       ],
-      "score": 79878,
+      "score": 79942,
       "language": "Python",
-      "forks": 7437,
+      "forks": 7440,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -75,9 +75,9 @@
       "authors": [
         "hiyouga"
       ],
-      "score": 76169,
+      "score": 76184,
       "language": "Python",
-      "forks": 9380,
+      "forks": 9385,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -91,9 +91,9 @@
       "authors": [
         "jeecgboot"
       ],
-      "score": 48559,
+      "score": 48575,
       "language": "Java",
-      "forks": 16219,
+      "forks": 16218,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -107,9 +107,9 @@
       "authors": [
         "AstrBotDevs"
       ],
-      "score": 47286,
+      "score": 47329,
       "language": "Python",
-      "forks": 3639,
+      "forks": 3649,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -123,7 +123,7 @@
       "authors": [
         "CopilotKit"
       ],
-      "score": 38854,
+      "score": 38867,
       "language": "TypeScript",
       "forks": 4840,
       "source": "GitHub Trending",
@@ -139,9 +139,9 @@
       "authors": [
         "khoj-ai"
       ],
-      "score": 38191,
+      "score": 38204,
       "language": "Python",
-      "forks": 2560,
+      "forks": 2561,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -155,9 +155,9 @@
       "authors": [
         "Tencent"
       ],
-      "score": 37930,
+      "score": 37976,
       "language": "Go",
-      "forks": 5292,
+      "forks": 5302,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -171,7 +171,7 @@
       "authors": [
         "reworkd"
       ],
-      "score": 36269,
+      "score": 36267,
       "language": "TypeScript",
       "forks": 9161,
       "source": "GitHub Trending",
@@ -187,9 +187,9 @@
       "authors": [
         "walkinglabs"
       ],
-      "score": 25727,
+      "score": 25821,
       "language": "TypeScript",
-      "forks": 2956,
+      "forks": 2969,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -203,7 +203,7 @@
       "authors": [
         "vanna-ai"
       ],
-      "score": 23789,
+      "score": 23786,
       "language": "Python",
       "forks": 2547,
       "source": "GitHub Trending",
@@ -219,9 +219,9 @@
       "authors": [
         "google"
       ],
-      "score": 22292,
+      "score": 22308,
       "language": "Python",
-      "forks": 4401,
+      "forks": 4415,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
@@ -235,9 +235,9 @@
       "authors": [
         "SWE-agent"
       ],
-      "score": 20841,
+      "score": 20850,
       "language": "Python",
-      "forks": 2280,
+      "forks": 2281,
       "source": "GitHub Trending",
       "category": "AI 开源项目",
       "type": "github"
